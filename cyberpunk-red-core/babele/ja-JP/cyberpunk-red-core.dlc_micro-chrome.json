@@ -1,0 +1,25 @@
+{
+  "label": "Micro Chrome",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Superflash Jacket": {
+      "name": "Superflash Jacket",
+      "description": "<p>A nice jacket carrying a surprise; using an action anyone wearing this jacket can consume a battery to let off a blinding light. Full rules can be found in Micro Chrome on Page 1.</p>"
+    },
+    "Chipware Compartment": {
+      "name": "Chipware Compartment",
+      "description": "<p>Lets you conceal up to four pieces of chipware, no Check required. Full rules can be found in Micro Chrome on Page 1.</p>"
+    },
+    "Smart Lens": {
+      "name": "Smart Lens",
+      "description": "<p>Gives a user a single Cybereye Option. Can use one Smart Lens per eye.</p>"
+    },
+    "MicroCutie": {
+      "name": "MicroCutie",
+      "description": "<p>An excellent quality pistol with a unique HypurrburstTM mode fire mode*. The weapon purrs when used. Full rules can be found in Micro Chrome on Page 1.</p>\n<p><br><em>Special fire mode not currently supported; will need to be manually applied</em></p>",
+      "dvTable": "DV Pistol"
+    }
+  }
+}

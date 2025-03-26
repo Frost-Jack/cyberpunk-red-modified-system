@@ -1,0 +1,24 @@
+{{cprTrace "START ITEM SETTINGS MIXIN CPR-EQUIPPABLE.HBS"}}
+{{#if item.isOwned }}
+  <li class="item flexrow">
+    <div class="item flexrow setting-name text-nowrap">
+      {{localize "CPR.itemSheet.physical.location"}}
+    </div>
+    <div class="item flexrow setting-value text-nowrap item-end">
+      {{#if this.editable }}
+        <select name="system.equipped" data-dtype="{{item.system.equipped}}">
+          {{#select item.system.equipped}}
+          {{#each (cprFindConfigObj "equipped") as |equipped e| }}
+            <option value="{{e}}">
+              {{localize equipped}}
+            </option>
+          {{/each}}
+        {{/select}}
+      </select>
+    {{else}}
+      <span class="text-flex-end">{{localize (cprFindConfigValue "equipped" item.system.equipped)}}</span>
+    {{/if}}
+  </div>
+</li>
+{{/if}}
+{{cprTrace "END CPR-EQUIPPABLE.HBS"}}

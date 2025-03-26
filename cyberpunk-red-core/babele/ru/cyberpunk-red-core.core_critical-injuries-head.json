@@ -1,0 +1,50 @@
+{
+  "label": "Critical Injuries (Head)",
+  "mapping": {},
+  "entries": {
+    "Brain Injury": {
+      "name": "Повреждение мозга",
+      "description": "<p>-2 ко всем действиям.</p>"
+    },
+    "Broken Jaw": {
+      "name": "Сломанная челюсть",
+      "description": "<p>-4 к разговорным действиям.</p>"
+    },
+    "Concussion": {
+      "name": "Контузия",
+      "description": "<p>-2 to every action.</p>"
+    },
+    "Cracked Skull": {
+      "name": "Сломанный череп",
+      "description": "<p>Triples damage to HP on aimed headshots (rather than the normal double damage).</p>"
+    },
+    "Crushed Windpipe": {
+      "name": "Сломанная трахея",
+      "description": "<p>Не можешь говорить.</p>"
+    },
+    "Damaged Ear": {
+      "name": "Повреждённое ухо",
+      "description": "<p>If move more than 4m/yds in a Turn, cannot move next turn. -2 to hearing based Perception.</p>"
+    },
+    "Damaged Eye": {
+      "name": "Повреждённый глаз",
+      "description": "<p>-2 to Ranged and Perception (Sight).</p>"
+    },
+    "Foreign Object (H)": {
+      "name": "Инородное тело (голова)",
+      "description": "<p>Получи критический урон в конце хода, если ты прошел больше 4м/ярд пешком.</p>"
+    },
+    "Lost Ear": {
+      "name": "Потеря уха",
+      "description": "<p>Ear is removed. If move more than 4m/yds in a Turn, cannot move next turn. -4 to hearing based Perception.</p>"
+    },
+    "Lost Eye": {
+      "name": "Потеря глаза",
+      "description": "<p>Eye is removed. -4 to Ranged Attacks and vision based Perception.</p>"
+    },
+    "Whiplash": {
+      "name": "Травма шеи",
+      "description": "<p>No other effects beyond increasing the base Death Save Penalty by 1.</p>"
+    }
+  }
+}

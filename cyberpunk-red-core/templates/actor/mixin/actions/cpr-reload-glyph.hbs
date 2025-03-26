@@ -1,0 +1,10 @@
+{{cprTrace "START ACTOR MIXIN ACTIONS CPR-RELOAD-GLYPH.HBS"}}
+{{#if (cprCompare this.system.magazine.value "<" (cprApplyUpgrade this this.system.magazine.max "magazine"))}}
+  <a class="item-action"
+     data-item-id="{{this.id}}"
+     data-action="reload-ammo">
+    <i class="fas fa-redo-alt"
+       data-tooltip="{{localize "CPR.actorSheets.commonActions.reload"}}"></i>
+  </a>
+{{/if}}
+{{cprTrace "END CPR-RELOAD-GLYPH.HBS"}}

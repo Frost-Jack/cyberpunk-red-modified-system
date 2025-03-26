@@ -1,0 +1,75 @@
+{{cprTrace "START ACTOR CPR-DEMON-SHEET.HBS"}}
+<form>
+  {{#if (cprIsDebug) }}
+    actor ID: {{actor.id}}
+  {{/if}}
+  <div class="demon-sheet">
+    <div class="demon-stats text-normal">
+      <div class="demon-title flexrow text-center text-semi">
+        <div class="demon-title-name">
+          {{localize "CPR.global.generic.name"}}
+        </div>
+        {{#each (cprFindConfigObj "demonStatList") as |stat s| }}
+          <div>
+            {{#unless (cprListContains "rez,netactions" s)}}
+              <a class="rollable"
+                 data-roll-title="{{s}}"
+                 data-tooltip="{{localize "CPR.actorSheets.rolling.clickToRollThisStat"}}">
+            {{/unless}}
+            {{localize stat}}
+            {{#unless (cprListContains "rez,netactions" s)}}
+              </a>
+            {{/unless}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="demon-value flexrow">
+        <div class="demon-value-stat text-hero">
+          <input name="name" type="text" value="{{actor.name}}"/>
+        </div>
+        {{#each actor.system.stats as |stat s| }}
+          {{#if (cprCompare s "===" "rez") }}
+            <div class="min-of-max-container">
+              <input class="text-center text-normal"
+                     name="system.stats.rez.value"
+                     type="number"
+                     value="{{this.value}}"/>
+              <div class="of text-normal text-semi">
+                of
+              </div>
+              <input class="text-center"
+                     name="system.stats.rez.max"
+                     type="number"
+                     value="{{this.max}}"/>
+            </div>
+            {{else}}
+              <div class="demon-value-stat text-normal">
+                <input name="system.stats.{{s}}" type="number" value="{{this}}"/>
+              </div>
+            {{/if}}
+          {{/each}}
+        </div>
+      </div>
+      <div class="demon-details">
+        <div class="demon-icon">
+          <img class="profile-img"
+               src="{{actor.img}}"
+               data-edit="img"
+               data-tooltip="{{actor.name}}"/>
+        </div>
+        <div class="demon-notes">
+          <div class="demon-edit-section">
+            {{editor
+                enrichedHTML.notes
+                target="system.notes"
+                button=true
+                owner=owner
+                editable=editable
+                engine="prosemirror"
+            }}
+          </div>
+        </div>
+      </div>
+  </div>
+</form>
+{{cprTrace "END CPR-DEMON-SHEET.HBS"}}

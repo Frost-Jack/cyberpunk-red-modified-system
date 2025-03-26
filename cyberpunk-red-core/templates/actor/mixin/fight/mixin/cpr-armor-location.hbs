@@ -1,0 +1,29 @@
+{{cprTrace "START ACTOR MIXIN FIGHT MIXIN CPR-ARMOR-LOCATION.HBS"}}
+<div class="armor-{{cssLoc}}-location text-right text-padding-right-smaller">
+  {{armorLocationLocal}}
+</div>
+<div class="armor-{{cssLoc}}-stats text-right">
+  {{armorStatsCur}}/{{armorStatsMax}}
+</div>
+<div class="armor-{{cssLoc}}-type text-right text-padding-right-small">
+  {{armorType}}
+</div>
+<div class="armor-{{cssLoc}}-actions">
+  <a class="ablate" data-location="{{armorLocation}}">
+    <i class="far fa-arrow-alt-circle-down" data-tooltip="{{armorAblateTip}}"></i>
+  </a>
+  {{#if (cprCompare armorId '===' armorCurrent)}}
+    <a class="armor-current"
+       data-location="{{armorLocation}}"
+       data-item-id="{{armorId}}">
+      <i class="fas fa-star" data-tooltip="{{armorResyncTip}}"></i>
+    </a>
+  {{else}}
+    <a class="armor-current"
+       data-location="{{armorLocation}}"
+       data-item-id="{{armorId}}">
+      <i class="far fa-star" data-tooltip="{{armorResyncTip}}"></i>
+    </a>
+  {{/if}}
+</div>
+{{cprTrace "END CPR-ARMOR-LOCATION.HBS"}}

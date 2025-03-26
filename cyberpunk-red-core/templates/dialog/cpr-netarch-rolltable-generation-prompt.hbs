@@ -1,0 +1,38 @@
+{{cprTrace "START DIALOG CPR-NETARCH-ROLLTABLE-GENERATION-PROMPT.HBS"}}
+<form class="dialog-sheet">
+  <div class="dialog-header flexcol">
+    <div class="text-normal text-center">
+    {{localize "CPR.dialog.netArchitectureRolltableSelection.question"}}
+    </div>
+  </div>
+  <hr/>
+  <div class="dialog-grid flexcol">
+    <ol class="dialog-list">
+      <li class="dialog-item flexrow">
+        <div class="dialog-item-name text-nowrap">
+          {{localize "CPR.dialog.netArchitectureGeneration.difficulty"}}:
+        </div>
+        <div class="dialog-item-input text-nowrap">
+          <select name="difficulty">
+            {{#select difficulty}}
+              <option value="Basic" selected="selected">
+                {{localize "CPR.dialog.netArchitectureRolltableSelection.basic"}}
+              </option>
+              <option value="Standard">
+                {{localize "CPR.dialog.netArchitectureRolltableSelection.standard"}}
+              </option>
+              <option value="Uncommon">
+                {{localize "CPR.dialog.netArchitectureRolltableSelection.uncommon"}}
+              </option>
+              <option value="Advanced">
+                {{localize "CPR.dialog.netArchitectureRolltableSelection.advanced"}}
+              </option>
+            {{/select}}
+          </select>
+        </div>
+      </li>
+    </ol>
+  </div>
+  {{> "systems/cyberpunk-red-core/templates/dialog/cpr-dialog-buttons.hbs"}}
+</form>
+{{cprTrace "END CPR-NETARCH-ROLLTABLE-GENERATION-PROMPT.HBS"}}

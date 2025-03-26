@@ -1,0 +1,42 @@
+{
+  "label": "Munitions",
+  "mapping": {},
+  "entries": {
+    "Arasaka Acid": {
+      "name": "Acide Arasaka",
+      "description": "<p>Revêtement seulement pour le katana Ravageur Suintant d'Arasaka.</p>"
+    },
+    "Arasaka Fire": {
+      "name": "Feu Arasaka",
+      "description": "<p>Revêtement seulement pour le katana Ravageur Suintant d'Arasaka.</p>\n<p>Peut rendre une cible en feu, les détails peuvent être trouvés à la page 91.</p>"
+    },
+    "Arasaka Wound Salt": {
+      "name": "Sel de blessure Arasaka",
+      "description": "<p>Revêtement seulement pour le katana Ravageur Suintant d'Arasaka.</p>\n<p>Peut appliquer une seconde Blessure critique, les détails peuvent être trouvés à la page 91.</p>"
+    },
+    "Doberman 500 Marking Scent": {
+      "name": "Doberman 500 odeur de marquage",
+      "description": "<p>Type de munitions spéciales pour pistolet à air comprimé. Pour plus d'informations, voir la page 44 de Black Chrome.</p>"
+    },
+    "Grenade (Arachnid)": {
+      "name": "Grenade (Arachnoïde)",
+      "description": "<p>Une grenade très collante, dont les détails peuvent être trouvés à la page 86.</p>"
+    },
+    "Grenade (Security)": {
+      "name": "Grenade (Sécurité)",
+      "description": "<p>Grenade perforante qui n'endommage pas les couverts. Des règles complètes peuvent être trouvées à la page 89.</p>"
+    },
+    "Grenade (Shuriken Tornado)": {
+      "name": "Grenade (Shuriken Tornado)",
+      "description": "<p>Littéralement une explosion de shurikens. Peut appliquer une seconde blessure critique, dont les détails peuvent être trouvés à la page 87.</p>"
+    },
+    "Net": {
+      "name": "Filet",
+      "description": "<p>Filet pour le lanceur escamotable de filet, capture la cible. (Voir Black Chrome p. 20-21 pour plus de détails)</p>"
+    },
+    "Rocks": {
+      "name": "Cailloux",
+      "description": "<p>Munitions pour le Nomad Rocker.</p>"
+    }
+  }
+}

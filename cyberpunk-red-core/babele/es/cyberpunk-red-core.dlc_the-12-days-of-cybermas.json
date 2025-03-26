@@ -1,0 +1,62 @@
+{
+  "label": "Los 12 Días de CiberNavidad",
+  "mapping": {},
+  "entries": {
+    "MagnaSlot BatteryBrick": {
+      "name": "Superbateria MagnaSlot",
+      "description": "<p>Paquete de batería que solo se ajusta al Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos. Se puede recargar en 1 hora.</p>"
+    },
+    "FleshWeave (Armor)": {
+      "name": "Tejido Dérmico (Armadura)",
+      "description": "<p>Objeto de Armadura para el Cyberware de Tejido Dérmico de Sycust.</p>"
+    },
+    "Blitzkrieg Arc-Thrower Cyberarm": {
+      "name": "Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos",
+      "description": "<p>Un brazo solo de nombre, el Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos, es un cañón de electricidad masivo. 0 ranuras de opción.</p>\n<p>El Lanza-Relámpagos es una escopeta exótica de mala calidad que utiliza la habilidad de armas pesadas. Dispara un proyectil de escopeta de electricidad con 4d6 de daño. Las lesiones críticas no son posibles. No produce ablación de armadura. Si el objetivo fuera reducido a menos de 1PV por la explosión, el objetivo tiene 1PV y queda inconsciente.</p>\n<p>Disparar el Lanza-Relámpagos consume una carga de SuperBateria de Radline Magnaslot incluida (100ed). La SuperBateria tiene una capacidad de 32 disparos y se puede recargar en 1 hora. Utilice una acción para intercambiar en un paquete de batería cargado, incluso si el usuario no tiene manos libres disponibles. El Lanza-Relámpagos no permite conectar una mano.</p>"
+    },
+    "Bug Eye": {
+      "name": "Ojo Insectoide",
+      "description": "<p>Ciberojo insectoide grande lleno de ranuras de opciones. Borgware.</p>"
+    },
+    "ChainRipp": {
+      "name": "Motosierra Ripp",
+      "description": "<p>Una motosierra de ciberarma saliente con un puerto de escape integrado. Se puede desplegar y retraerse sin usar una acción. El usuario no puede usar la mano en el ciberbrazo de Motosierra Ripp cuando se activa la sierra.</p>\n<p>Al desplegar, Motosierra Ripp puede ser acelerada como una acción, transformándola en un arma de cuerpo a cuerpo exótica muy pesado de una mano de excelente calidad. La Motosierra Ripp permanece acelerada hasta que se desactive como una Acción.</p>\n<p>En el estado desplegado, pero no acelerado, la Motosierra Ripp es un arma de cuerpo a cuerpo exótica muy pesada de una sola mano. Requiere 4 ranuras de opción de ciberbrazo</p>"
+    },
+    "DeathTrance": {
+      "name": "Trance de la Muerte",
+      "description": "<p>Activa como una acción para detener signos de vida como el ritmo cardíaco y la respiración. Para el observador casual, el usuario parece estar muerto. -4 para todas las Acciones en este estado letargo. Se puede desactivar con una acción. El usuario puede experimentar la piel azul o pálida de múltiples usos.</p>\n<p>Tecnología médica VD17 o VD21 (Diagnóstico, Deducción, Percepción) para descubrir que el usuario no está realmente muerto</p>"
+    },
+    "FleshWeave": {
+      "name": "Tejido Dérmico",
+      "description": "<p>Cyberware corporal externo*. 7 CP para la cabeza y el cuerpo.<br>Armadura de Tejido Dérmico con funcionalidad avanzada de curación automática. Miles de millones de nanobots reparan todo el daño a la armadura de Tejido Dérmico(cuerpo y cabeza) después de 10 minutos de descanso. La armadura no se acumula.</p>\n<p><em>* El Cyberware de Armadura no funciona como armadura en el sistema, por favor añade el elemento \"Tejido Dérmico (Armadura)\" de Sycust al personaje/tipejo para rastrear</em></p>"
+    },
+    "Gang Jazzler": {
+      "name": "Noqueador de Pandillas",
+      "description": "<p>Usa una acción de choque para apuñalar a un objetivo agarrado con una aguja electrificada. El objetivo no recibe daño, pero debe hacer un chequeo de Resistencia contra Tortugas/Drogas. Al fallar la comprobación, el objetivo cae inconsciente durante 1 minuto.</p>\n<p>Funciona con un paquete de baterías recargables (50ed). El paquete de batería debe ser recargado durante 1 hora después de cada uso. No es necesario realizar ningún control para ocultar el Noqueador de Pandillas y el paquete de baterías. Se puede instalar en el brazo de la carne si la única pieza de ciberware en ese brazo.</p>"
+    },
+    "MicroWaldo": {
+      "name": "MicroWaldo",
+      "description": "<p>Una colección de instrumentos y sondas montados en las muñecas para facilitar la cirugía.<br>+1 Técnica Médica.</p>\n<p>Toma una ranura de Opción de Ciberbrazo y una ranura de Opción de Enlace Neural.</p>"
+    },
+    "MonoVision": {
+      "name": "MonoVisión",
+      "description": "<p dir=\"ltr\">Visor ciberóptico de un solo ojo que sustituye a dos ojos de carne. Demasiado grande para una montura multióptica.</p>\n<p dir=\"ltr\">Las opciones de Ciberojo siempre están emparejadas, incluso si solo hay uno de cada tipo. Los penalizadores de lesiones críticas Ojo Perdido se duplican si el objetivo se basa únicamente en la Monovisión para la vista.</p>\n<p>Borgware.</p>"
+    },
+    "OptiShield": {
+      "name": "Escudo Óptico",
+      "description": "<p>Lentes espejadas retractables incrustadas. Cuando se activa como acción, el usuario es inmune a efectos negativos de luz brillante, como por ejemplo de granadas cegadoras.</p>"
+    },
+    "Poser Chip": {
+      "name": "Chip Imitador",
+      "description": "<p>Chipware. Permite al usuario imitar sin esfuerzo los patrones de voz y la personalidad preprogramada. Ciberware de edición estándar para Pandillas de Imitadores.</p>\n<ul>\n<li>+4 a Chequeos de Actuación al imitar esa personalidad específica.</li>\n<li>+5 a Chequeos de Actuación con Roleplay convincente.</li>\n</ul>\n<p>Los Chips de Imitación que vienen programados con innumerables horas de imágenes de celebridades cuestan 500ed. Chips de Imitación más personalizados programados con más de 10 horas de imágenes de un coste individual privado de 1000ed.</p>"
+    },
+    "Romanova Cyberlegs": {
+      "name": "Ciberpiernas Romanova",
+      "description": "<p>Ciberpiernas de alta moda con cuchillas integradas en cada talón. Las cuchillas no pueden ser eliminadas.</p>\n<p>Ciberpiernas emparejadas, 1000eb para ambas piernas. Cada pierna tiene 3 ranuras para las opciones de Ciberpierna. Tira solo una vez para registrar la perdida de humanidad del par de piernas. Cada pierna puede sufrir lesiones críticas separadas y debe ser reparada individualmente.</p>"
+    },
+    "Watch-Man": {
+      "name": "Mira-Man",
+      "description": "<p dir=\"ltr\">Agente interno con pantalla retráctil en el antebrazo del usuario. Requiere un Ciberbrazo.</p>"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/* eslint-disable import/no-cycle */
+// add your migration scripts here
+export { default as BaseMigration } from "./000-base.js";
+export { default as ActiveEffectsMigration } from "./001-activeEffects.js";
+export { default as FoundryV10Migration } from "./002-foundryV10.js";
+export { default as HotfixEightyThreeDotOne } from "./003-hotfix-0.83.1.js";
+export { default as ReleaseEightyFourDotZero } from "./004-release-0.84.0.js";
+export { default as AblationValueMigration } from "./005-ablationValue.js";
+export { default as UniversalInstallMigration } from "./006-universalInstall.js";
+export { default as ItemSecondaryWeaponMigration } from "./007-itemUpgrades-secondaryWeapon.js";
+export { default as ImprovedDialogMigration } from "./008-improvedDialogs.js";
+export { default as PackIconMigration } from "./009-packIconsMigration.js";
+export { default as ItemIsElectronicMigration } from "./009-isElectronic.js";
+export { default as SourceMigration } from "./009-source.js";
+export { default as ItemSmartGlassesMigration } from "./009-fixSmartGlasses.js";
+export { default as AmmoOverrideMigration } from "./010-ammoOverride.js";
+export { default as ArmorPiercingMigration } from "./011-armorPiercing.js";
+export { default as InstalledItemMigrationFix } from "./012-installedItemMigrationFix.js";
+export { default as RoleAbilitiesFix } from "./013-roleAbilitiesFix.js";
+export { default as SituationalFix } from "./014-situationalFix.js";
+export { default as aeFix } from "./015-aeFix.js";
+export { default as dvCompendiumMigration } from "./016-dvCompendium.js";
+export { default as criticalInjuryCompendiumMigration } from "./017-critTables.js";
+export { default as CustomSkillFix } from "./018-customSkillFix.js";
+export { default as ImportedActorFix } from "./019-importedActorFix.js";
+export { default as TokenItemLossMigration } from "./020-tokenItemLossFix.js";
+export { default as v11EffectsMigration } from "./021-v11Effects.js";
+export { default as packNameMigration } from "./022-packRenames.js";
+export { default as v11TokenMigration } from "./023-unlinkedTokensv11.js";
+export { default as BlackIceNotesMigration } from "./024-blackIceNotesFix.js";

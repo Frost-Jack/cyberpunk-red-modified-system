@@ -1,0 +1,46 @@
+{
+  "label": "Rôles",
+  "mapping": {},
+  "entries": {
+    "Exec": {
+      "name": "Corporatiste",
+      "description": "<p>Cadres d'entreprise et corsaires du monde du business qui luttent pour rétablir le règne des mégacorporations.</p>"
+    },
+    "Fixer": {
+      "name": "Fixer",
+      "description": "<p>Trafiquants, contrebandiers, négociateurs et informateurs qui règnent sur les marchés de minuit, dans la Rue d'après-guerre.</p>"
+    },
+    "Lawman": {
+      "name": "Justicier",
+      "description": "<p>Des agents de l'autorité augmentés qui patrouillent dans les rues sauvages et les autoroutes ou règnent les barbares de la route.</p>"
+    },
+    "Media": {
+      "name": "Média",
+      "description": "<p>Journalistes, stars médiatiques et influenceurs qui risquent tout au nom de la vérité ou pour la gloire.</p>"
+    },
+    "Medtech": {
+      "name": "Medtech",
+      "description": "<p>Docteurs de quartiers qui exercent sans autorisation et médecins de la cybernétique ; ils réparent aussi bien la chair que le métal.</p>"
+    },
+    "Netrunner": {
+      "name": "Netrunner",
+      "description": "<p>Maîtres cybernétiques du piratage de l'après-NET et cambrioleurs des secrets de la psyché.</p>"
+    },
+    "Nomad": {
+      "name": "Nomade",
+      "description": "<p>Experts en transports, quintessence des guerriers de la route, pirates et contrebandiers qui relient les communautés du monde entier.</p>"
+    },
+    "Rockerboy": {
+      "name": "Rockeur",
+      "description": "<p>Rebelles rock'n'roll qui défient l'autorité à l'aide de concerts, d'œuvres d'art et de discours enflammés.</p>"
+    },
+    "Solo": {
+      "name": "Solo",
+      "description": "<p>Assassins, gardes du corps, tueurs à gages et mercenaire.</p>"
+    },
+    "Tech": {
+      "name": "Techie",
+      "description": "<p>Mécaniciens renégats et inventeurs des supertechnologies ; ce sont eux qui assurent le fonctionnement de ce futur sombre.</p>"
+    }
+  }
+}

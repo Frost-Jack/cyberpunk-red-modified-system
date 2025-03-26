@@ -1,0 +1,78 @@
+{{cprTrace "START ITEM SETTINGS CPR-SKILL.HBS"}}
+{{!-- Skill Item Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.skills.category"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    <select name="system.category" data-dtype="{{item.system.category}}">
+      {{#select item.system.category}}
+      {{#each (cprFindConfigObj "skillCategories") as |category c| }}
+        <option value="{{c}}">
+          {{localize category}}
+        </option>
+      {{/each}}
+    {{/select}}
+  </select>
+</div>
+</li>
+{{!-- Skill Difficulty Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.skills.difficulty"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    <select name="system.difficulty" data-dtype="{{item.system.difficulty}}">
+      {{#select item.system.difficulty}}
+      {{#each (cprFindConfigObj "skillDifficulties") as |difficulty d| }}
+        <option value="{{d}}">
+          {{localize difficulty}}
+        </option>
+      {{/each}}
+    {{/select}}
+  </select>
+</div>
+</li>
+{{!-- Skill Basic Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.skills.basic"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    {{#if item.system.basic }}
+      <a class="item-checkbox" data-target="system.basic"><i class="far fa-check-circle"></i></a>
+    {{else}}
+      <a class="item-checkbox" data-target="system.basic"><i class="far fa-circle"></i></a>
+    {{/if}}
+  </div>
+</li>
+{{!-- Skill Level Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.skill.level"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    <input name="system.level"
+           type="number"
+           data-dtype="Number"
+           value="{{item.system.level}}" />
+  </div>
+</li>
+{{!-- Skill Stat Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.global.generic.stat"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    <select name="system.stat" data-dtype="{{item.system.stat}}">
+      {{#select item.system.stat}}
+      {{#each (cprFindConfigObj "statList") as |stat s| }}
+        <option value="{{s}}">
+          {{localize stat}}
+        </option>
+      {{/each}}
+    {{/select}}
+  </select>
+</div>
+</li>
+{{cprTrace "END CPR-SKILL.HBS"}}

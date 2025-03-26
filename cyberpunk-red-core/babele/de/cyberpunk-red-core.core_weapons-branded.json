@@ -1,0 +1,188 @@
+{
+  "label": "Waffen (Markenwaffen)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Avenger": {
+      "name": "Avenger",
+      "description": "<p>Eine verbergbare, mittelschwere Pistole. +1 auf Angriffe.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Bearcat": {
+      "name": "Bearcat",
+      "description": "<p>Ein Bogen. Das Nachladen ist Teil der Angriffsaktion.</p>\n<p>+1 auf Angriffe.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "Boomer Buster": {
+      "name": "Boomer Buster",
+      "description": "<p>Eine sehr schwere Pistole. Kann nicht verborgen werden. +1 auf Angriffe.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Bulldog": {
+      "name": "Bulldog",
+      "description": "<p>Allzweck-Flinte. +1 auf Angriffe.</p>",
+      "dvTable": "SG Flinte (Flintenpatrone)"
+    },
+    "City Reaper": {
+      "name": "City Reaper",
+      "description": "<p>Eine Schwere MP. Kann aufgrund der Größe nicht verborgen werden. Wenn du einen Kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG MP"
+    },
+    "Cityhunter": {
+      "name": "Cityhunter",
+      "description": "<p>Eine verbergbare, schwere Pistole. +1 auf Angriffe.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Dragon": {
+      "name": "Dragon",
+      "description": "<p>Standard-Sturmgewehr. +1 auf Angriffe.</p>",
+      "dvTable": "SG Sturmgewehr"
+    },
+    "Home Defender": {
+      "name": "Home Defender",
+      "description": "<p>Allzweck-Flinte. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst. </p>",
+      "dvTable": "SG Flinte (Flintenpatrone)"
+    },
+    "Hotshot": {
+      "name": "Hotshot",
+      "description": "<p>Pack die großen Waffen aus. Dieser Raketenwerfer wird einigen Schaden verursachen. +1 auf Angriffe.</p>",
+      "dvTable": "SG Raketenwerfer"
+    },
+    "Hunter": {
+      "name": "Hunter",
+      "description": "<p>Eine Armbrust, die nach jedem Angriff nachgeladen werden muss. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "Jungle Reaper": {
+      "name": "Jungle Reaper",
+      "description": "<p>Standard-Sturmgewehr. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Sturmgewehr"
+    },
+    "Long Rifle": {
+      "name": "Long Rifle",
+      "description": "<p>Ein Scharfschützengewehr für große Entfernungen. Fasst 4 Kugeln in einem Magazin.</p>",
+      "dvTable": "SG Scharfschützengewehr"
+    },
+    "Magnum": {
+      "name": "Magnum",
+      "description": "<p>Eine verbergbare schwere Pistole. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Mark III": {
+      "name": "Mark III",
+      "description": "<p>Eine verbergbare, schwere Pistole.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Minami 10": {
+      "name": "Minami 10",
+      "description": "<p>Eine verbergbare MP. +1 auf Angriffe.</p>",
+      "dvTable": "SG MP"
+    },
+    "Mini-Gat": {
+      "name": "Mini-Gat",
+      "description": "<p>Eine verbergbare MP. </p>",
+      "dvTable": "SG MP"
+    },
+    "Mini-Grenade": {
+      "name": "Mini-Grenade",
+      "description": "<p>Ein hochwirksamer Granatwerfer. Mit ihm können eine Vielzahl von Granaten verwendet werden.</p>",
+      "dvTable": "SG Granatwerfer"
+    },
+    "P-35": {
+      "name": "P-35",
+      "description": "<p>Eine Sehr Schwere Pistole. Sie kann nicht verborgen werden.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Rapid Assault": {
+      "name": "Rapid Assault",
+      "description": "<p>Eine Allzweck-Flinte. Oft auch als Schrotflinte bekannt.</p>",
+      "dvTable": "SG Flinte (Flintenpatrone)"
+    },
+    "Ronin": {
+      "name": "Ronin",
+      "description": "<p>Ein Standard-Sturmgewehr.</p>",
+      "dvTable": "SG Sturmgewehr"
+    },
+    "Scorpion": {
+      "name": "Scorpion",
+      "description": "<p>Eine Armbrust. Das Nachladen ist Teil der Angriffsaktion.</p>\n<p>+1 auf Angriffe.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "Sherwood": {
+      "name": "Sherwood",
+      "description": "<p>Ein Bogen, der nach jedem Angriff nachgeladen werden muss. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du ihn wieder einsetzen kannst.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "SMG-21": {
+      "name": "SMG-21",
+      "description": "<p>Eine schwere MP. Kann aufgrund der Größe nicht verborgen werden.</p>",
+      "dvTable": "SG MP"
+    },
+    "Snipe-Star": {
+      "name": "Snipe Star",
+      "description": "<p>Ein Scharfschützengewehr. Das Magazin fasst 4 Schuss. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Scharfschützengewehr"
+    },
+    "Streetmaster": {
+      "name": "Streetmaster",
+      "description": "<p>Eine verbergbare mittelschwere Pistole. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Striker": {
+      "name": "Striker",
+      "description": "<p>Eine Armbrust. Das Nachladen ist Teil der Angriffsaktion.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "Super Chief": {
+      "name": "Super Chief",
+      "description": "<p>Eine sehr schwere Pistole. Kann nicht verborgen werden. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG Pistole"
+    },
+    "Tech-Assault III": {
+      "name": "Tech-Assault III",
+      "description": "<p>Eine verbergbare MP. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du sie wieder einsetzen kannst.</p>",
+      "dvTable": "SG MP"
+    },
+    "Tomcat": {
+      "name": "Tomcat",
+      "description": "<p>Ein Bogen. Das Nachladen ist Teil der Angriffsaktion.</p>",
+      "dvTable": "SG Bögen und Armbrüste"
+    },
+    "Type-18": {
+      "name": "Type-18",
+      "description": "<p>Ein hochwirksamer Granatwerfer. Mit ihm können eine Vielzahl von Granaten verwendet werden. +1 auf Angriffe.</p>",
+      "dvTable": "SG Granatwerfer"
+    },
+    "Type-G": {
+      "name": "Type-G",
+      "description": "<p>Ein hochwirksamer Granatwerfer. Mit ihm können eine Vielzahl von Granaten verwendet werden. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du ihn wieder einsetzen kannst.</p>",
+      "dvTable": "SG Granatwerfer"
+    },
+    "Type-R": {
+      "name": "Type-R",
+      "description": "<p>Fahre die großen Geschütze auf. Dieser Raketenwerfer wird einigen Schaden anrichten. Wenn du einen kritischen Fehlschlag würfelst (eine 1 beim Angriffswurf), musst du eine Aktion aufwenden, um die Fehlfunktion zu beheben, bevor du ihn wieder einsetzen kannst.</p>",
+      "dvTable": "SG Raketenwerfer"
+    },
+    "Urban": {
+      "name": "Urban",
+      "description": "<p>Fahre die großen Geschütze auf. Dieser Raketenwerfer wird einigen Schaden anrichten.</p>",
+      "dvTable": "SG Raketenwerfer"
+    },
+    "Viper": {
+      "name": "Viper",
+      "description": "<p>Eine schwere MP. Kann aufgrund der Größe nicht verborgen werden. +1 auf Angriffe.</p>",
+      "dvTable": "SG MP"
+    },
+    "WSSA Sniper System": {
+      "name": "WSSA Sniper System",
+      "description": "<p>Ein Scharfschützengewehr für große Entfernungen. Fasst 4 Kugeln in einem Magazin. +1 auf Angriffe.</p>",
+      "dvTable": "SG Scharfschützengewehr"
+    },
+    "X-9mm": {
+      "name": "X-9mm",
+      "description": "<p>Eine verbergbare, mittelschwere Pistole.</p>",
+      "dvTable": "SG Pistole"
+    }
+  }
+}

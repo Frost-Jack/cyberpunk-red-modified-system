@@ -1,0 +1,26 @@
+{
+  "label": "Améliorations",
+  "mapping": {},
+  "entries": {
+    "4Tify": {
+      "name": "4Tify",
+      "description": "<p>Une application pour votre Agent. Peut révéler des points faibles en scannant votre maison. Ou une section de couverture.</p>\n<p>Les règles complètes peuvent être trouvées dans Black Chrome à la page 13.</p>"
+    },
+    "City Database": {
+      "name": "Base de données de Ville",
+      "description": "<p>Une application pour votre Agent. Trouvez les meilleures adresses en ville avec ce guide de ville. Règles complètes dans Black Chrome à la page 14.</p>"
+    },
+    "Digital Gladiator": {
+      "name": "Digital Gladiator",
+      "description": "<p>Une application pour votre Agent. Créez un Solo virtuel et menez vos combats dans le royaume numérique !</p>\n<p>Les règles pour les combats se trouvent dans Black Chrome à la page 12.</p>"
+    },
+    "MedScan": {
+      "name": "MedScan",
+      "description": "<p>Une application pour votre Agent. Vidéoconférence médicale, vous aide à faire des premiers secours, contre un prix. Les règles complètes peuvent être trouvées dans Black Chrome à la page 14.</p>"
+    },
+    "NCPD Crime Database": {
+      "name": "Base de données NCPD Crime",
+      "description": "<p>Une application pour votre Agent. Permet à l'utilisateur de rechercher des informations criminelles publiques. Les règles complètes d'utilisation peuvent être trouvées dans Black Chrome à la page 13.</p>\n<p>&nbsp;</p>"
+    }
+  }
+}

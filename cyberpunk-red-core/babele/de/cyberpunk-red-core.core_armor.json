@@ -1,0 +1,78 @@
+{
+  "label": "Panzerung",
+  "mapping": {},
+  "entries": {
+    "Bodyweight Suit": {
+      "name": "Bodyweight-Anzug",
+      "description": "<p>Gepanzerter Netrunner-Anzug. Kann ein Cyberdeck aufnehmen und bietet Interface-Anschlüsse. Kann nur für Kopf und Körper in einem getragen werden. Fügt deiner Cyberware einen Optionsslot ausschließlich für Hardware hinzu. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Bullet Proof Shield": {
+      "name": "Kugelsicherer Schild",
+      "description": "<p>10 TP, wird durch Schaden gesenkt, muss immer an einem Arm getragen werden.</p>"
+    },
+    "Flak (Body)": {
+      "name": "Flakanzug (Körper)",
+      "description": "<p>Westen und Hosen mit Metallplatten um Schutz vor hochexplosiven Waffen, Artillerie, Granaten, Flinten und Anti-Personen-Minen zu geben. -4 REF, GES und BEW.</p>"
+    },
+    "Flak (Head)": {
+      "name": "Flakanzug (Kopf)",
+      "description": "<p>Helm mit Metallplatten um Schutz vor hochexplosiven Waffen, Artillerie, Granaten, Flinten und Anti-Personen-Minen zu geben. -4 REF, GES und BEW.</p>"
+    },
+    "Heavy Armorjack (Body)": {
+      "name": "Schwerer Panzeranzug (Körper)",
+      "description": "<p>Schwere Version des Panzeranzugs. -2 REF, GES und BEW.</p>"
+    },
+    "Heavy Armorjack (Head)": {
+      "name": "Schwerer Panzeranzug (Kopf)",
+      "description": "<p>Schwere Version des Panzeranzughelms. -2 REF, GES und BEW.</p>"
+    },
+    "Kevlar (Body)": {
+      "name": "Kevlar (Körper)",
+      "description": "<p>Standard Kevlar-Weste. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Kevlar (Head)": {
+      "name": "Kevlar (Kopf)",
+      "description": "<p>Standard Kevlar-Kopfschutz. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Leathers (Body)": {
+      "name": "Lederkluft (Körper)",
+      "description": "<p>Einfache Lederrüstung. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Leathers (Head)": {
+      "name": "Lederkluft (Kopf)",
+      "description": "<p>Einfache Lederkappe. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Light Armorjack (Body)": {
+      "name": "Leichter Panzeranzug (Körper)",
+      "description": "<p>Leichte Version des Panzeranzugs. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Light Armorjack (Head)": {
+      "name": "Leichter Panzeranzug (Kopf)",
+      "description": "<p>Leichte Version des Panzeranzughelms. Keine Abzüge fürs Tragen.</p>"
+    },
+    "Medium Armorjack (Body)": {
+      "name": "Mittelschwerer Panzeranzug (Körper)",
+      "description": "<p>Mittlere Version des Panzeranzugs. -2 REF, GES und BEW.</p>"
+    },
+    "Medium Armorjack (Head)": {
+      "name": "Mittelschwerer Panzeranzug (Kopf)",
+      "description": "<p>Mittlere Version des Panzeranzughelms. -2 REF, GES und BEW.</p>"
+    },
+    "Metalgear (Body)": {
+      "name": "Metalgear (Körper)",
+      "description": "<p>Schwerste und mächtigste Panzerung, die es zu kaufen gibt. -4 REF, GES, und BEW.</p>"
+    },
+    "Metalgear (Head)": {
+      "name": "Metalgear (Kopf)",
+      "description": "<p>Schwerster und mächtigster Helm, den es zu kaufen gibt. -4 REF, GES, und BEW.</p>"
+    },
+    "Skin Weave": {
+      "name": "Hautverstärker",
+      "description": "<p>Rüstungsgegenstand für Hautverstärker-Cyberware.</p>"
+    },
+    "Subdermal Armor": {
+      "name": "Subdermale Panzerung",
+      "description": "<p>Rüstungsgegenstand für die Cyberware Subdermale Panzerung.</p>"
+    }
+  }
+}

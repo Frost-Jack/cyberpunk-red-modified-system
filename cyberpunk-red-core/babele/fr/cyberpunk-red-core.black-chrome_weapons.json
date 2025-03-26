@@ -1,0 +1,246 @@
+{
+  "label": "Armes",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Arasaka Prototype Variable Assault Rifle": {
+      "name": "Fusil d'assaut prototype Variable Arasaka",
+      "description": "<p>Fusil d'assaut exotique de qualité excellente. En supposant que vous avez toutes les pièces, il peut utiliser un autre mode de mitrailleuse unique. Les règles complètes peuvent être trouvées dans Black Chrome à la page 102.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Beast Shotgun": {
+      "name": "Fusil à pompe Beast",
+      "description": "<p>Fusil à pompe exotique. Chargeur de 40 coups. Nécessite COR 10 ou plus (sauf s'il est monté) au moment du tir ou l'utilisateur en subira les conséquences. Les règles complètes peuvent être trouvées dans Black Chrome à la page 111.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "BMG-500": {
+      "name": "BMG-500",
+      "description": "<p>Fusil d'assaut exotique avec un chargeur de 500 balles et un bipied. Nécessite COR 11 ou supérieur (sauf s'il est monté). Les règles complètes peuvent être trouvées dans Black Chrome à la page 122.<br><br></p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Bubba Buster": {
+      "name": "Bubba Buster",
+      "description": "<p>Fusil à pompe exotique de mauvaise qualité. Il se détruit s'il est tiré plus de 3 fois en une minute. Les règles complètes peuvent être trouvées dans Black Chrome à la page 106.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Crowd Buster": {
+      "name": "Chasseur de foule",
+      "description": "<p>Fusil d'assaut exotique avec un mode de tir alternatif unique. Livré avec un casque anti-bruit automatique*. Les règles complètes peuvent être trouvées dans Black Chrome à la page 116. </p>\n<p><em>*Doit être appliqué manuellement après l'achat</em></p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Door Cracker": {
+      "name": "Craqueur de porte",
+      "description": "<p>Objet explosif bon marché, petite zone d'effet. On peut trouver des règles complètes dans Black Chrome à la page 87.</p>"
+    },
+    "E-TACK Public Defender": {
+      "name": "E-TACK Public Defender",
+      "description": "<p>Livré avec une liaison Smartgun*. L'utilisateur a besoin d'une poignée subdermique pour l'utiliser. Il a un mode létal et un non létal.</p>\n<p>Les règles complètes peuvent être trouvées dans Black Chrome à la page 115.</p>\n<p><em>* Cette mise à jour doit être ajoutée manuellement.</em></p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Engage Rocket Launcher": {
+      "name": "Lance-roquettes Engage",
+      "description": "<p>Lance-roquettes exotique de qualité médiocre. Il explose sur un échec critique ou lors du déchargement de l'arme. Des règles complètes peuvent être trouvées dans Black Chrome à la page 107.</p>",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "Faisal's Dead or Alive": {
+      "name": "Mort ou Vif de Faisal",
+      "description": "<p>Fusil à pompe exotique de mauvaise qualité avec un lanceur de filet de mauvaise qualité intégré. Les règles complètes peuvent être trouvées dans Black Chrome à la page 104.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "FangFist": {
+      "name": "FangFist",
+      "description": "<p>Arme de mêlée intermédiaire à une main d'excellente qualité.</p>\n<p>Un gant avec une lame rétractable courte.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 98.</p>"
+    },
+    "Fox Dual Ammo Pistol": {
+      "name": "Pistolet à doubles munitions Fox",
+      "description": "<p>Pistolet lourd exotique. On peut trouver des règles complètes dans Black Chrome à la page 113.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "GunMart Smart Special": {
+      "name": "GunMart Smart Special",
+      "description": "<p>Pistolet lourd exotique de mauvaise qualité avec une liaison Smartgun intégré. Les règles complètes peuvent être trouvées dans Black Chrome à la page 108.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "GunMart Special": {
+      "name": "GunMart Special",
+      "description": "<p>Pistolet lourd exotique de mauvaise qualité. Des règles complètes peuvent être trouvées dans Black Chrome à la page 108.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Hades Multipurpose Assault Shotgun": {
+      "name": "Fusil à pompe d'assaut polyvalent Hades",
+      "description": "<p>Fusil à pompe exotique. Le chargeur contient 16 coups. Les règles complètes peuvent être trouvées dans Black Chrome à la page 109.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Hello Cutie Ultra-K8 Assault Pistol": {
+      "name": "Pistolet d'assaut Hello Cutie Ultra-K8",
+      "description": "<p>Le pistolet d'assaut Sanroo Hello Cutie Ultra-K8 est un pistolet très lourd exotique d'excellente qualité, avec un mode pistolet-mitrailleur lourd d'excellente qualité. Les règles complètes peuvent être trouvées dans Black Chrome à la page 118.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "KillChip 100 Micro-Bomb": {
+      "name": "Micro-Bombe KillChip 100",
+      "description": "<p>Puce mémoire, mais explosive lorsqu'elle est branchée dans un neuromatériel. On peut trouver des règles complètes dans Black Chrome à la page 88.</p>"
+    },
+    "M-04 Variable Assault": {
+      "name": "M-04 Assaut Variable",
+      "description": "<p>Le M-04 est un fusil d'assaut exotique de mauvaise qualité avec un lance-grenades monté personnalisé. Les règles complètes peuvent être trouvées dans Black Chrome à la page 119.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Magna Knuckles": {
+      "name": "Magna Knuckles",
+      "description": "<p>Une arme de mêlée intermédiaire exotique. Un effet IEM alimenté par batterie peut désactiver les cyberimplants, on peut trouver tous les détails dans Black Chrome à la page 96.</p>"
+    },
+    "Mastiff SMG": {
+      "name": "Pistolet-mitrailleur Mastiff",
+      "description": "<p>Le Mastiff est un pistolet-mitrailleur exotique à deux mains et un fusil à pompe. Des règles complètes peuvent être trouvées dans Black Chrome à la page 113.</p>",
+      "dvTable": "SD Pistolet-mitrailleur"
+    },
+    "Matchmaker": {
+      "name": "Matchmaker",
+      "description": "<p>Le Georgie Arms Matchmaker est un fusil à pompe exotique de mauvaise qualité avec un seul coup dans le chargeur. Les règles complètes peuvent être trouvées dans Black Chrome à la page 105.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Micro Hydrogen Combustor": {
+      "name": "Micro catalyseur à hydrogène",
+      "description": "<div class=\"QcsUad BDJ8fb BLojaf\">\n<div class=\"usGWQd\" aria-live=\"polite\">\n<div class=\"KkbLmb\">\n<div class=\"lRu31\"><span class=\"HwtZe\" lang=\"en\"><span class=\"jCAhz ChMk0b\"><span class=\"ryNqvb\">Un petit dispositif qui explose après avoir été immergée dans un liquide. Est à la fois un</span></span></span><span class=\"HwtZe\" lang=\"en\">perce armure et </span><span class=\"HwtZe\" lang=\"en\"><span class=\"jCAhz ChMk0b\"><span class=\"ryNqvb\">crée un large nuage de fumée. Les règles complètes peuvent être trouvées dans Black Chrome à la page 88.</span></span></span></div>\n</div>\n</div>\n</div>"
+    },
+    "ModFire 10X (Pistol)": {
+      "name": "ModFire 10X (Pistolet)",
+      "description": "<p>Le ModFire 10X est un pistolet lourd exotique. Peut également être transformé en pistolet-mitrailleur exotique ou en fusil d'assaut exotique, en supposant que l'utilisateur dispose de toutes les pièces nécessaires. Les règles complètes peuvent être trouvées dans Black Chrome à la page 114.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "ModFire 10X (Rifle)": {
+      "name": "ModFire 10X (Pistolet)",
+      "description": "<p>Le ModFire 10X est un pistolet lourd exotique. Peut également être transformé en pistolet-mitrailleur exotique ou en fusil d'assaut exotique, en supposant que l'utilisateur dispose de toutes les pièces nécessaires. Les règles complètes peuvent être trouvées dans Black Chrome à la page 114.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "ModFire 10X (SMG)": {
+      "name": "ModFire 10X (Pistolet-mitrailleur)",
+      "description": "<p>Le ModFire 10X est un pistolet lourd exotique. Peut également être transformé en pistolet-mitrailleur exotique ou en fusil d'assaut exotique, en supposant que l'utilisateur dispose de toutes les pièces nécessaires. Les règles complètes peuvent être trouvées dans Black Chrome à la page 114.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Mono-Guard": {
+      "name": "Mono-Guard",
+      "description": "<p>Monofilament, arme de mêlée lourde à une main.</p>\n<p>Peut appliquer de multiples blessures critiques, dont des détails peuvent être trouvés dans Black Chrome à la page 96.</p>"
+    },
+    "Mono-Katana Solo Wolf and Bot": {
+      "name": "Mono-Katana Solo Wolf and Bot",
+      "description": "<p>Arme de mêlée très lourde exotique de mauvaise qualité à deux mains.</p>\n<p>Copie bon marché d'un Mono-Katana. Les règles pour les distinguer peuvent être trouvées dans Black Chrome à la page 92.</p>"
+    },
+    "Mono-Katana": {
+      "name": "Mono-Katana",
+      "description": "<p>Arme de mêlée exotique très lourde à deux mains. Lorsqu'elle est maniée par le bon utilisateur, l'arme ignore les armures de moins de 7 PA, les détails complets dans Black Chrome à la page 92.</p>"
+    },
+    "Mono-Star": {
+      "name": "Mono-Star",
+      "description": "<p>Mono-Shuriken vibrant et tournant sur lui-même.</p>\n<p>Peut être utilisé comme une arme de mêlée et à distance, dont les règles peuvent être trouvées dans Black Chrome à la page 101.</p>",
+      "dvTable": "SD Arme de lancer"
+    },
+    "Mono-Wakizashi": {
+      "name": "Mono-Wakizashi",
+      "description": "<p>Arme de mêlée lourde à une main. Lorsqu'elle est maniée par le bon utilisateur, l'arme ignore les armures de moins de 7 PA, tous les détails dans Black Chrome à la page 93.</p>"
+    },
+    "Nomad Rocker": {
+      "name": "Nomad Rocker",
+      "description": "<p>Pistolet très lourd exotique de pauvre qualité qui tire des pierres. Munitions gratuites pour cette arme. Des règles complètes peuvent être trouvées dans Black Chrome à la page 115.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "OUTLet Explosive": {
+      "name": "Prise explosive",
+      "description": "<p>Explosif à l'apparence d'une prise électrique. Des règles complètes peuvent être trouvées dans Black Chrome à la page 89.</p>"
+    },
+    "Overlord Handcannon": {
+      "name": "Overlord Handcannon",
+      "description": "<p>Pistolet lourd exotique de mauvaise qualité avec une cadence de 1. Il peut donner un bonus de +1 aux Bastons de regard dans certaines situations. Les règles complètes peuvent être trouvées dans Black Chrome à la page 106.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Pepper Shaker": {
+      "name": "Moulin à poivre",
+      "description": "<p>Pistolet-mitrailleur exotique incapable de tirer au coup par coup ou de viser. Le tir automatique n'utilise que 6 balles pour cette arme. Des règles complètes peuvent être trouvées dans Black Chrome à la page 105.</p>",
+      "dvTable": "SD Pistolet-mitrailleur (Tir Automatique)"
+    },
+    "Perseus": {
+      "name": "Perseus",
+      "description": "<p>Pistolet exotique très lourd de qualité excellente. Des règles complètes peuvent être trouvées dans Black Chrome à la page 112.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Pursuit Security Bouncer": {
+      "name": "Pursuit Security Bouncer",
+      "description": "<p>Gant alimenté par une batterie.</p>\n<p>Une matraque étourdissante à une main et un microonde.</p>\n<p>On peut trouver des détails complets dans Black Chrome à la page 97.</p>"
+    },
+    "Ranger Combat Boomerang": {
+      "name": "Boomerang Ranger Combat",
+      "description": "<p>Agit comme une arme de mêlée lourde exotique à une main, ignore la moitié des PA.</p>\n<p>Contient un système de guidage intégré, dont les détails peuvent être trouvés dans Black Chrome à la page 100.</p>",
+      "dvTable": "SD Arme de lancer"
+    },
+    "Rhinocefist": {
+      "name": "Rhinocefist",
+      "description": "<p>Large gant blindé, couvrant de la main à épaule. Nécessite des prises d'interface. Peut être utilisé à la fois pour la démolition et la bagarre, dont les détails peuvent être trouvés dans Black Chrome à la page 95.</p>"
+    },
+    "Rostović Kleaver": {
+      "name": "Rostović Kleaver",
+      "description": "<p>Arme de mêlée exotique très lourde à deux mains. Vous pouvez utiliser une batterie pour augmenter les dégâts, dont les détails peuvent être trouvés à la page 94.</p>\n<p>Nécessite COR 11 ou plus pour l'utiliser.</p>"
+    },
+    "Superchrome® Glam Rifle": {
+      "name": "Fusil d'assaut Glam Superchrome®️",
+      "description": "<p>Fusil d'assaut exotique. Donne à l'utilisateur un bonus de +2 en Habillement et style lorsqu'il est équipé. Les règles complètes peuvent être trouvées dans Black Chrome à la page 120.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Superchrome® Javelin": {
+      "name": "Javelin Superchrome®️",
+      "description": "<p>Fusil de précision exotique. Donne à l'utilisateur un bonus de +2 en Habillement et style lorsqu'il est équipé. Des règles complètes peuvent être trouvées dans Black Chrome à la page 120.</p>",
+      "dvTable": "SD Fusil de précision"
+    },
+    "Superchrome® Sidearm": {
+      "name": "Sidearm Superchrome®",
+      "description": "<p>Pistolet exotique très lourd. Donne à l'utilisateur un bonus de +2 en Habillement et style lorsqu'il est équipé. Des règles complètes peuvent être trouvées dans Black Chrome à la page 121.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Survivalist": {
+      "name": "Survivaliste",
+      "description": "<p>Arbalète et fusil d'assaut 2 en 1. Il est incapable de tir automatique. Il est livré avec une lunette de précision intégrée*. Les règles complètes peuvent être trouvées dans Black Chrome à la page 103. </p>\n<p><em>*Doit être appliqué manuellement après l'achat</em></p>",
+      "dvTable": "SD Arcs et arbalètes"
+    },
+    "Tasmanskiy Klô": {
+      "name": "Tasmanskiy Klô",
+      "description": "<p>Grandes lames rétractables dans un Gant de Combat.&nbsp;</p>\n<p>Arme de mêlée très lourde exotique d'excellente qualité.</p>\n<p>Tous les détails dans Black Chrome à la page 99.</p>"
+    },
+    "TechHammer": {
+      "name": "TechHammer",
+      "description": "<p>Fusil à pompe/lance-roquettes exotique. Règles complètes dans Black Chrome à la page 110.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Tommyknocker": {
+      "name": "Tommyknocker",
+      "description": "<p>Combo pistolet très lourd exotique et fusil à pompe de mauvaise qualité. Nécessite COR 10 ou d'être tenu dans deux mains lors du tir, sinon l'utilisateur lâche l'arme au sol. Les règles complètes peuvent être trouvées dans Black Chrome à la page 123.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "TR-4 Detonator Fluid": {
+      "name": "Fluide détonateur TR-4",
+      "description": "<p>Doit être versé dans un réservoir de carburant pour exploser. Des règles complètes peuvent être trouvées dans Black Chrome à la page 90.</p>"
+    },
+    "Ulični Uništitelj (Street Destroyer)": {
+      "name": "Ulični Uništitelj (Street Destroyer)",
+      "description": "<p>Fusil à pompe exotique de mauvaise qualité. Le chargeur ne peut contenir que 3 coups. Il ne peut tirer que des chevrotines. Des règles complètes peuvent être trouvées dans Black Chrome à la page 117.</p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Utility Tomahawk": {
+      "name": "Tomahawk utilitaire",
+      "description": "<p>Pique et coupe , ce piolet en acier composite peut vous aider à grimper sur les parois de glace tout en causant de graves dégâts lors d'un combat.</p>\n<p>Peut être utilisé comme une arme de mêlée et à distance, dont les règles peuvent être trouvées dans Black Chrome à la page 101.</p>",
+      "dvTable": "SD Arme de lancer"
+    },
+    "Weeping Reaver Katana": {
+      "name": "Katana Ravageur Suintant",
+      "description": "<p>Arme de mêlée très lourde à deux mains d'excellente qualité. Contient trois doses de fluides spécifiques pour enrober la lame :</p>\n<ul>\n<li>Arasaka Fire (peut enflammer la cible)</li>\n<li>Arasaka Acide (permet de percer l'armure)</li>\n<li>Arasaka Sel Wound (inflige une seconde blessure critique)</li>\n</ul>\n<p>Les règles complètes se trouvent dans Black Chrome à la page 91.</p>"
+    },
+    "Westwood": {
+      "name": "Westwood",
+      "description": "<p>Pistolet très lourd. Barillet de 6 coups qui ne peut pas être amélioré avec des options de chargeur. Les règles complètes peuvent être trouvées dans Black Chrome à la page 121.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "White Hornet Tanto": {
+      "name": "Tanto White Hornet",
+      "description": "<p>Arme de mêlée intermédiaire à une main. Vous pouvez rendre la cible inconsciente plutôt que morte, avec des règles complètes trouvées dans Black Chrome à la page 93.</p>"
+    }
+  }
+}

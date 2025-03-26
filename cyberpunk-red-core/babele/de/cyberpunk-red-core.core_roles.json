@@ -1,0 +1,46 @@
+{
+  "label": "Rollen",
+  "mapping": {},
+  "entries": {
+    "Exec": {
+      "name": "Konzerner",
+      "description": "<p>Strippenzieher der Konzerne mit dem Geschäftssinn einer Heuschrecke, die darum kämpfen, die Herrschaft der Megakons wiederherzustellen.</p>"
+    },
+    "Fixer": {
+      "name": "Schieber",
+      "description": "<p>Dealmaker, Organisierer und Informationsmakler auf den Mitternachtsmärkten der Nachkriegszeit auf der Straße.</p>"
+    },
+    "Lawman": {
+      "name": "Gesetzeshüter",
+      "description": "<p>Abgebrühte Gesetzeshüter, die in den Hexenkesseln und auf den brutalen Straßenkrieger-Highways außerhalb patrouillieren.</p>"
+    },
+    "Media": {
+      "name": "Media",
+      "description": "<p>Journalisten, Medienstars und soziale Influencer, die alles riskieren, um an die Wahrheit zu kommen – oder an den Ruhm.</p>"
+    },
+    "Medtech": {
+      "name": "MediTech",
+      "description": "<p>Illegale Straßenärzte und Cyberware-Sanis, die Fleisch und Metall gleichermaßen zusammenflicken.</p>"
+    },
+    "Netrunner": {
+      "name": "Netrunner",
+      "description": "<p>Kybernetische Meister-Hacker der Post-Net-Welt, die einem das Hirn rösten und Geheimnisse stehlen.</p>"
+    },
+    "Nomad": {
+      "name": "Nomade",
+      "description": "<p>Transportexperten, ultimative Straßenkrieger, Piraten und Schmuggler, welche die Welt am Laufen halten.</p>"
+    },
+    "Rockerboy": {
+      "name": "Rockster",
+      "description": "<p>Rock-and-Roll-Rebellen, die mit Auftritten, Kunst und Rhetorik gegen die Obrigkeit kämpfen.</p>"
+    },
+    "Solo": {
+      "name": "Solo",
+      "description": "<p>Die Auftragsmörder, Leibwächter, Killer und Söldner der gesetzlosen neuen Welt.</p>"
+    },
+    "Tech": {
+      "name": "Tech",
+      "description": "<p>Abtrünnige Mechaniker und Supertech-Erfinder – die Leute, die die Dunkle Zukunft am Laufen halten.</p>"
+    }
+  }
+}

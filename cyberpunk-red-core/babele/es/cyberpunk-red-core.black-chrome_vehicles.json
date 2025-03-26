@@ -1,0 +1,130 @@
+{
+  "label": "Vehículos",
+  "mapping": {},
+  "entries": {
+    "AeroCop": {
+      "name": "AeroPatrulla",
+      "description": "<p>AV4 tipo Aerodyne. Versión de la policía.</p>\n<p>Estadísticas completas pueden encontrarse en la página 61.</p>"
+    },
+    "AeroVox": {
+      "name": "AeroVox",
+      "description": "<p>AV4 tipo Aerodyne. Versión Civil.</p>\n<p>Estadísticas completas pueden encontrarse en la página 61.</p>"
+    },
+    "Badger Corporate Bus": {
+      "name": "Bus Corporativo Tejón",
+      "description": "<p>Un autobús de lujo para viajes de negocios. Equipado para reuniones de trabajo y bebidas después de las reuniones.</p>\n<p>Los detalles completos se pueden encontrar en la página 80.</p>"
+    },
+    "Bellhop": {
+      "name": "Bellhop",
+      "description": "<p>Un Girocóptero de un asiento que puede plegarse al tamaño de una maleta grande.</p>\n<p>Las estadísticas completas se pueden encontrar en la página 60.</p>"
+    },
+    "Chupacabra": {
+      "name": "Chupacabra",
+      "description": "<p>Coche compacto construido a partir de piezas recicladas de vehículos más antiguos. Tecnología baja, pero de alta potencia.</p>\n<p>Detalles completos se pueden encontrar en la página 66.</p>"
+    },
+    "Destination": {
+      "name": "Destino",
+      "description": "<p>AV4 tipo Aerodyne. Versión Civil.</p>\n<p>Estadísticas completas pueden encontrarse en la página 62.</p>"
+    },
+    "Ebi": {
+      "name": "Ebi",
+      "description": "<p>Pequeño pero bien pensado coche compacto.</p>\n<p>Puede encontrar todos los detalles en la página 72.</p>"
+    },
+    "EconoCompact": {
+      "name": "EconoCompacto",
+      "description": "<p>Pequeño y barato coche compacto.</p>\n<p>Puede encontrar todos los detalles en la página 64.</p>"
+    },
+    "Family Star Van": {
+      "name": "Furgoneta Estrella Familiar",
+      "description": "<p>Confortable coche familiar.</p>\n<p>Puede encontrar todos los detalles en la página 65.</p>"
+    },
+    "Gorgon Security Van": {
+      "name": "Furgoneta de Seguridad de Gorgon",
+      "description": "<p>Una furgoneta blindada monstruosa.</p>\n<p>Puede encontrar todos los detalles en la página 73.</p>"
+    },
+    "Grundy": {
+      "name": "Grundy",
+      "description": "<p>Coche compacto de aspecto industrial blindado con arado de combate.</p>\n<p>Detalles completos pueden encontrarse en la página 68.</p>"
+    },
+    "Harriet 100": {
+      "name": "Harriet 100",
+      "description": "<p>Una motocicleta clásica con un aspecto más femenino.</p>\n<p>Puede encontrar todos los detalles en la página 69.</p>"
+    },
+    "Harvey 100": {
+      "name": "Harvey 100",
+      "description": "<p>Una motocicleta de ruta clásica.</p>\n<p>Puede encontrar todos los detalles en la página 69.</p>"
+    },
+    "Harvey Merc": {
+      "name": "Harvey Merc",
+      "description": "<p>Una motocicleta de ruta clásica, esta vez con armas montadas.</p>\n<p>Puede encontrar todos los detalles en la página 69.</p>"
+    },
+    "Herakles": {
+      "name": "Herakles",
+      "description": "<p>Transporte de tropas tipo AV4, armado y blindado.</p>\n<p>Las estadísticas completas se pueden encontrar en la página 63.</p>"
+    },
+    "Highway Master Artemis": {
+      "name": "Artemis Maestro de las Carreteras",
+      "description": "<p>Una motocicleta de carretera de tipo Low-Rider con cubierta de cristal retráctil. Tiene un modo de sobrecarga que no viene con garantía de seguridad.</p>\n<p>Los detalles completos se pueden encontrar en la página 70.</p>"
+    },
+    "JetBoy Hoverboard": {
+      "name": "JetBoy Hoverboard",
+      "description": "<p>Un hoverboard conducido con habilidad de Atletismo. No se puede actualizar.</p>\n<p>Puede encontrar todos los detalles en la página 78.</p>"
+    },
+    "MegaHauler": {
+      "name": "MegaHauler",
+      "description": "<p>Camión de Transporte con armadura. Más bien parecido a un tren.</p>\n<p>Puede encontrar todos los detalles en la página 79.</p>"
+    },
+    "Molly 1K": {
+      "name": "Molly 1K",
+      "description": "<p>Todo Terreno Compacto</p>\n<p>Puede encontrar todos los detalles en la página 82.</p>"
+    },
+    "Paladin 500": {
+      "name": "Paladín 500",
+      "description": "<p>Un coche de alto rendimiento. Ahora puedes ser MadMax. Con dos ametralladoras montadas.</p>\n<p>Puede encontrar todos los detalles en la página 75.</p>"
+    },
+    "Parallax Cybercycle": {
+      "name": "Ciberciclo Parallax",
+      "description": "<p>Supermoto Tope de Gama.</p>\n<p>Puede encontrar todos los detalles en la página 83.</p>"
+    },
+    "Range Trike": {
+      "name": "Ranger Trike",
+      "description": "<p>Motocicleta de tres ruedas.</p>\n<p>Puede encontrar todos los detalles en la página 67.</p>"
+    },
+    "SH-45 Patroller Law": {
+      "name": "SH-45 Patrullero",
+      "description": "<p>Girocóptero de un asiento. Versión de la policía, con ametralladora montada.</p>\n<p>Estadísticas completas pueden encontrarse en la página 58.</p>"
+    },
+    "SH-45 Patroller": {
+      "name": "SH-45 Patrullero",
+      "description": "<p>Girocóptero de un asiento. Versión Civil.</p>\n<p>Estadísticas completas pueden encontrarse en la página 58.</p>"
+    },
+    "Sliver": {
+      "name": "Plata",
+      "description": "<p>Una motocicleta de carretera con todos los aparatos que nunca necesitarías.</p>\n<p>Puede encontrar todos los detalles en la página 84.</p>"
+    },
+    "Street King Combat Vehicle": {
+      "name": "Vehículo de Combate Rey Callejero",
+      "description": "<p>Un vehículo de alto rendimiento que es grande, armado y tiene un aspecto militar.</p>\n<p>Los detalles completos se pueden encontrar en la página 77.</p>"
+    },
+    "TDT 004": {
+      "name": "TDT 004",
+      "description": "<p>Helicóptero de transporte de tropas.</p>\n<p>Puede encontrar todos los detalles en la página 59.</p>"
+    },
+    "The Zacatzontli Pickup Truck": {
+      "name": "La Camioneta Zacatzontli",
+      "description": "<p>Un coche compacto equipado para todo tipo de viajes.</p>\n<p>Puede encontrar todos los detalles en la página 74.</p>"
+    },
+    "Thunder-X": {
+      "name": "Trueno-X",
+      "description": "<p>Un vehículo de alto rendimiento tope de gama.</p>\n<p>Detalles completos se pueden encontrar en la página 76.</p>"
+    },
+    "Volkhov": {
+      "name": "Volkhov",
+      "description": "<p>Un vehículo compacto tipo camioneta blindada con ametralladora montada. Viene con una botella de vodka.</p>\n<p>Los detalles completos se pueden encontrar en la página 71.</p>"
+    },
+    "Yang's Wheels Rickshaw": {
+      "name": "Ruedas Rickshaw de Yang",
+      "description": "<p>Moto de carretera con tráiler acoplado para pasajeros.</p>\n<p>Puede encontrar todos los detalles en la página 81.</p>"
+    }
+  }
+}

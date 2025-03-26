@@ -1,0 +1,10 @@
+{
+  "label": "Abbigliamento",
+  "mapping": {},
+  "entries": {
+    "Holo-Wear": {
+      "name": "Holo-Wear",
+      "description": "<p>Holographic clothing that can get disabled by EMP blasts for a minute. Can swap styles with an action if purchased. Refer to full item description on BC pg. 35.</p>"
+    }
+  }
+}

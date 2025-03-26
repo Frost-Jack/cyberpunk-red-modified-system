@@ -1,0 +1,35 @@
+{{cprTrace "START ITEM SETTINGS CPR-CYBERDECK.HBS"}}
+{{!-- Cyberdeck Item Settings--}}
+{{!-- Cyberdeck Installed Programs Settings--}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap text-semi">
+    <a class="manage-installed-programs"
+       data-item-prop="manage-installed-programs">
+      {{localize "CPR.itemSheet.cyberdeck.configureInstalledPrograms"}}
+      <i class="text-smallest text-super fas fa-wrench"></i>
+    </a>
+  </div>
+</li>
+<div class="installed-programs"></div>
+{{#each item.system.programs.installed as |program| }}
+  <li class="item flexrow">
+    <div class="item flexrow setting-name text-nowrap text-padding-left-small">
+      {{#if (cprListContains "speed,attack,defense" program.system.class) }}
+        {{program.name}} ({{localize program.system.class}})
+        <a class="program-uninstall text-padding-left-normal"
+           data-item-id="{{program.uuid}}">
+          <i class="fas fa-folder-minus"
+             data-tooltip="{{localize "CPR.itemSheet.cyberdeck.eraseProgram"}}"></i>
+        </a>
+      {{else}}
+        {{program.name}} ({{localize (cprFindConfigValue "programClassList" program.class)}})
+        <a class="program-uninstall text-padding-left-smaller"
+           data-item-id="{{program.uuid}}">
+          <i class="fas fa-folder-minus"
+             data-tooltip="{{localize "CPR.itemSheet.cyberdeck.eraseProgram"}}"></i>
+        </a>
+      {{/if}}
+    </div>
+  </li>
+{{/each}}
+{{cprTrace "END CPR-CYBERDECK.HBS"}}

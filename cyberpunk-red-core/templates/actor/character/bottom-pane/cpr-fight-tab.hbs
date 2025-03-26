@@ -1,0 +1,28 @@
+{{cprTrace "START ACTOR CHARACTER BOTTOM-PANE CPR-FIGHT-TAB.HBS"}}
+<div class="fight-tab">
+  {{#if (cprCompare fightData.fightState "===" "Meatspace") }}
+    {{> "systems/cyberpunk-red-core/templates/actor/character/bottom-pane/fight/cpr-criticalInjuries.hbs" }}
+    <div class="armor-section">
+      <li class="items-header flexrow">
+        <span class="item-name section-name text-nowrap text-padding-left-smallest">
+          {{localize "CPR.global.itemTypes.armor"}}
+        </span>
+      </li>
+      {{> "systems/cyberpunk-red-core/templates/actor/mixin/fight/cpr-armor-list.hbs" }}
+    </div>
+    <div class="weapon-section">
+      <li class="items-header flexrow">
+        <span class="text-padding-left-smallest">
+          {{localize "CPR.characterSheet.bottomPane.fight.weapons"}}
+        </span>
+      </li>
+      {{> "systems/cyberpunk-red-core/templates/actor/mixin/fight/cpr-weapons-list.hbs" }}
+    </div>
+  {{/if}}
+  {{#if (cprCompare fightData.fightState "===" "Netspace") }}
+    {{> "systems/cyberpunk-red-core/templates/actor/mixin/netrunning/cpr-netActions.hbs" }}
+    {{> "systems/cyberpunk-red-core/templates/actor/mixin/netrunning/cpr-installedPrograms.hbs" }}
+    {{> "systems/cyberpunk-red-core/templates/actor/mixin/netrunning/cpr-rezzedPrograms.hbs" }}
+  {{/if}}
+</div>
+{{cprTrace "END CPR-FIGHT-TAB.HBS"}}

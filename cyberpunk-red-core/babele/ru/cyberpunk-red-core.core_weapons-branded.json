@@ -1,0 +1,188 @@
+{
+  "label": "Weapons (Branded)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Avenger": {
+      "name": "Avenger",
+      "description": "<p>A concealable, medium-sized pistol. +1 to Attack.</p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Bearcat": {
+      "name": "Bearcat",
+      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>\n<p>+1 to Attack.</p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "Boomer Buster": {
+      "name": "Boomer Buster",
+      "description": "<p>A very heavy pistol. It can't be concealed. +1 to Attack.</p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Bulldog": {
+      "name": "Bulldog",
+      "description": "<p>An all-purpose shotgun. +1 to Attack.</p>",
+      "dvTable": "СЛ Дробовик (Жекан)"
+    },
+    "City Reaper": {
+      "name": "City Reaper",
+      "description": "<p>A heavy SMG. Due to its size it can't be concealed.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ ПП"
+    },
+    "Cityhunter": {
+      "name": "Cityhunter",
+      "description": "<p>A concealable, heavy pistol. +1 to Attack.</p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Dragon": {
+      "name": "Dragon",
+      "description": "<p>A standard-issue assault rifle. +1 to Attack.</p>",
+      "dvTable": "СЛ Штурмовая винтовка"
+    },
+    "Home Defender": {
+      "name": "Home Defender",
+      "description": "<p>An all-purpose shotgun.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Дробовик (Жекан)"
+    },
+    "Hotshot": {
+      "name": "Hotshot",
+      "description": "<p>Bring out the big guns. This rocket launcher will do some damage. +1 to Attack.</p>",
+      "dvTable": "СЛ Ракетница"
+    },
+    "Hunter": {
+      "name": "Hunter",
+      "description": "<p>A crossbow which must be reloaded after every attack.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "Jungle Reaper": {
+      "name": "Jungle Reaper",
+      "description": "<p>A standard-issue assault rifle.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Штурмовая винтовка"
+    },
+    "Long Rifle": {
+      "name": "Long Rifle",
+      "description": "<p>A long-distance sniper rifle. Holds 4 bullets in a magazine. </p>",
+      "dvTable": "СЛ Снайперская винтовка"
+    },
+    "Magnum": {
+      "name": "Magnum",
+      "description": "<p>A concealable, heavy pistol.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Mark III": {
+      "name": "Mark III",
+      "description": "<p>A concealable, heavy pistol. </p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Minami 10": {
+      "name": "Minami 10",
+      "description": "<p>A concealable SMG. +1 to Attack.</p>",
+      "dvTable": "СЛ ПП"
+    },
+    "Mini-Gat": {
+      "name": "Mini-Gat",
+      "description": "<p>A concealable SMG. </p>",
+      "dvTable": "СЛ ПП"
+    },
+    "Mini-Grenade": {
+      "name": "Mini-Grenade",
+      "description": "<p>A high-impact grenade launcher. You can use a variety of grenades with this. </p>",
+      "dvTable": "СЛ Гранатомет"
+    },
+    "P-35": {
+      "name": "P-35",
+      "description": "<p>A very heavy pistol. It can't be concealed. </p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Rapid Assault": {
+      "name": "Rapid Assault",
+      "description": "<p>An all-purpose shotgun. </p>",
+      "dvTable": "СЛ Дробовик (Жекан)"
+    },
+    "Ronin": {
+      "name": "Ronin",
+      "description": "<p>A standard-issue assault rifle. </p>",
+      "dvTable": "СЛ Штурмовая винтовка"
+    },
+    "Scorpion": {
+      "name": "Scorpion",
+      "description": "<p>A crossbow, reloaded as part of an Attack Action.</p>\n<p>+1 to Attack.</p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "Sherwood": {
+      "name": "Sherwood",
+      "description": "<p>A revitalized bow that must be reloaded after every attack.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "SMG-21": {
+      "name": "SMG-21",
+      "description": "<p>A heavy SMG. Due to its size it can't be concealed. </p>",
+      "dvTable": "СЛ ПП"
+    },
+    "Snipe-Star": {
+      "name": "Snipe-Star",
+      "description": "<p>A long-distance sniper rifle. Holds 4 bullets in a magazine.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Снайперская винтовка"
+    },
+    "Streetmaster": {
+      "name": "Streetmaster",
+      "description": "<p>A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Striker": {
+      "name": "Striker",
+      "description": "<p>A crossbow, reloaded as part of an Attack Action.</p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "Super Chief": {
+      "name": "Super Chief",
+      "description": "<p>A very heavy pistol. It can't be concealed.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ пистолет"
+    },
+    "Tech-Assault III": {
+      "name": "Tech-Assault III",
+      "description": "<p>A concealable SMG.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ ПП"
+    },
+    "Tomcat": {
+      "name": "Tomcat",
+      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>",
+      "dvTable": "СЛ Луки и арбалеты"
+    },
+    "Type-18": {
+      "name": "Type-18",
+      "description": "<p>A high-impact grenade launcher. You can use a variety of grenades with this. +1 to Attack.</p>",
+      "dvTable": "СЛ Гранатомет"
+    },
+    "Type-G": {
+      "name": "Type-G",
+      "description": "<p>A high-impact grenade launcher. You can use a variety of grenades with this.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Гранатомет"
+    },
+    "Type-R": {
+      "name": "Type-R",
+      "description": "<p>Bring out the big guns. This rocket launcher will do some damage.  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear. </p>",
+      "dvTable": "СЛ Ракетница"
+    },
+    "Urban": {
+      "name": "Urban",
+      "description": "<p>Bring out the big guns. This rocket launcher will do some damage. </p>",
+      "dvTable": "СЛ Ракетница"
+    },
+    "Viper": {
+      "name": "Viper",
+      "description": "<p>A heavy SMG. Due to its size it can't be concealed. +1 to Attack.</p>",
+      "dvTable": "СЛ ПП"
+    },
+    "WSSA Sniper System": {
+      "name": "WSSA Sniper System",
+      "description": "<p>A long-distance sniper rifle. Holds 4 bullets in a magazine. +1 to Attack.</p>",
+      "dvTable": "СЛ Снайперская винтовка"
+    },
+    "X-9mm": {
+      "name": "X-9mm",
+      "description": "<p>A concealable, medium-sized pistol. </p>",
+      "dvTable": "СЛ пистолет"
+    }
+  }
+}

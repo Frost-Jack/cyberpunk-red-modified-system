@@ -1,0 +1,25 @@
+{{cprTrace "START DIALOG CPR-CONFIGURE-BI-ACTOR-FROM-PROGRAM-PROMPT.HBS"}}
+<form class="dialog-sheet">
+  <div class="dialog-header">
+    <ol class="items-list">
+      <li class="item flexrow">
+        <div class="item flexrow">
+          <select name="programUUID">
+            {{#select programUUID}}
+              <option value="unlink">
+                {{localize "CPR.dialog.configureBlackIceActorFromProgram.unlinkBlackIceFromProgram"}}
+              </option>
+              {{#each biProgramList as |program| }}
+                <option value="{{program.uuid}}">
+                  {{program.name}}
+                </option>
+              {{/each}}
+            {{/select}}
+          </select>
+        </div>
+      </li>
+    </ol>
+  </div>
+  {{> "systems/cyberpunk-red-core/templates/dialog/cpr-dialog-buttons.hbs"}}
+</form>
+{{cprTrace "END CPR-CONFIGURE-BI-ACTOR-FROM-PROGRAM-PROMPT.HBS"}}

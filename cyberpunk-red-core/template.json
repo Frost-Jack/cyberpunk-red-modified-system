@@ -1,0 +1,554 @@
+{
+  "Actor": {
+    "types": ["blackIce", "character", "container", "demon", "mook"],
+    "templates": {
+      "common": {
+        "stats": {
+          "int": {
+            "value": 6
+          },
+          "ref": {
+            "value": 6
+          },
+          "dex": {
+            "value": 6
+          },
+          "tech": {
+            "value": 6
+          },
+          "cool": {
+            "value": 6
+          },
+          "will": {
+            "value": 6
+          },
+          "luck": {
+            "value": 6,
+            "max": 6
+          },
+          "move": {
+            "value": 6
+          },
+          "body": {
+            "value": 6
+          },
+          "emp": {
+            "value": 6,
+            "max": 6
+          }
+        },
+        "externalData": {
+          "currentArmorBody": {
+            "id": "",
+            "value": 0,
+            "max": 0
+          },
+          "currentArmorHead": {
+            "id": "",
+            "value": 0,
+            "max": 0
+          },
+          "currentArmorShield": {
+            "id": "",
+            "value": 0,
+            "max": 0
+          },
+          "currentWeapon": {
+            "id": "",
+            "value": 0,
+            "max": 0
+          }
+        },
+        "derivedStats": {
+          "hp": {
+            "value": 40,
+            "max": 40,
+            "transactions": []
+          },
+          "walk": {
+            "value": 0
+          },
+          "run": {
+            "value": 0
+          },
+          "roleInfo": {
+            "activeNetRole": "",
+            "activeRole": ""
+          },
+          "currentWoundState": "notWounded",
+          "seriouslyWounded": 20,
+          "deathSave": {
+            "value": 0,
+            "penalty": 0,
+            "basePenalty": 0
+          },
+          "humanity": {
+            "value": 60,
+            "max": 60,
+            "transactions": []
+          }
+        },
+        "roleInfo": {
+          "activeNetRole": "",
+          "activeRole": ""
+        },
+        "information": {
+          "alias": "",
+          "description": "",
+          "notes": "",
+          "history": ""
+        },
+        "reputation": {
+          "value": 0,
+          "transactions": []
+        },
+        "criticalInjuries": [],
+        "installedItems": {
+          "allowedTypes": ["cyberware"],
+          "allowed": true,
+          "list": []
+        }
+      },
+      "ledgerWealth": {
+        "wealth": {
+          "value": 0,
+          "transactions": []
+        }
+      }
+    },
+    "character": {
+      "templates": ["common", "ledgerWealth"],
+      "lifepath": {
+        "culturalOrigin": "",
+        "personality": "",
+        "clothingStyle": "",
+        "hairStyle": "",
+        "affectations": "",
+        "valueMost": "",
+        "aboutPeople": "",
+        "valuedPerson": "",
+        "valuedPossession": "",
+        "familyBackground": "",
+        "childhoodEnvironment": "",
+        "familyCrisis": "",
+        "lifeGoals": "",
+        "roleLifepath": "",
+        "friends": "",
+        "tragicLoveAffairs": "",
+        "enemies": ""
+      },
+      "improvementPoints": {
+        "value": 0,
+        "transactions": []
+      },
+      "lifestyle": {
+        "fashion": {
+          "description": ""
+        },
+        "housing": {
+          "description": "Cargo Container",
+          "cost": 1000
+        },
+        "lifestyle": {
+          "description": "Kibble",
+          "cost": 100
+        },
+        "traumaTeam": {
+          "description": "",
+          "cost": 0
+        },
+        "extras": {
+          "description": "",
+          "cost": 0
+        }
+      }
+    },
+    "mook": {
+      "templates": ["common"]
+    },
+    "blackIce": {
+      "class": "",
+      "stats": {
+        "per": 0,
+        "spd": 0,
+        "atk": 0,
+        "def": 0,
+        "rez": {
+          "value": 10,
+          "max": 10,
+          "transactions": []
+        }
+      },
+      "cost": 100,
+      "notes": ""
+    },
+    "container": {
+      "templates": ["ledgerWealth"],
+      "hp": {
+        "value": 40,
+        "max": 40,
+        "transactions": []
+      },
+      "reinforced": false,
+      "armor": {
+        "sp": 0,
+        "ablation": 0
+      },
+      "restricted": false,
+      "DV": 0,
+      "vendor": {
+        "itemTypes": {}
+      }
+    },
+    "demon": {
+      "stats": {
+        "rez": {
+          "value": 10,
+          "max": 10,
+          "transactions": []
+        },
+        "interface": 0,
+        "actions": 2,
+        "combatNumber": 14
+      },
+      "notes": ""
+    }
+  },
+  "Item": {
+    "types": [
+      "ammo",
+      "armor",
+      "clothing",
+      "criticalInjury",
+      "cyberdeck",
+      "cyberware",
+      "drug",
+      "gear",
+      "itemUpgrade",
+      "netarch",
+      "program",
+      "role",
+      "skill",
+      "vehicle",
+      "weapon"
+    ],
+    "templates": {
+      "attackable": {
+        "weaponType": "",
+        "weaponSkill": "",
+        "fireModes": {
+          "autoFire": 0,
+          "autoFireAmmoConsumption": 10,
+          "suppressiveFire": false
+        },
+        "damage": "1d6",
+        "rof": 1,
+        "dvTable": "",
+        "ignoreSP": 0,
+        "isRanged": false,
+        "unarmedAutomaticCalculation": true,
+        "attackmod": 0
+      },
+      "common": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "favorite": false
+      },
+      "container": {
+        "installedItems": {
+          "allowedTypes": ["itemUpgrade"],
+          "allowed": true,
+          "list": [],
+          "usedSlots": 0,
+          "slots": 3
+        }
+      },
+      "effects": {
+        "revealed": true,
+        "usage": "toggled"
+      },
+      "electronic": {
+        "isElectronic": false,
+        "providesHardening": false
+      },
+      "equippable": {
+        "equipped": "owned"
+      },
+      "loadable": {
+        "usesType": "magazine",
+        "magazine": {
+          "value": 0,
+          "max": 0,
+          "ammoData": {
+            "name": "",
+            "uuid": ""
+          }
+        },
+        "ammoVariety": []
+      },
+      "installable": {
+        "installLocation": "mall",
+        "installedIn": "",
+        "isInstalled": false,
+        "size": 1
+      },
+      "physical": {
+        "concealable": {
+          "concealable": false,
+          "isConcealed": false
+        },
+        "brand": ""
+      },
+      "stackable": {
+        "amount": 1
+      },
+      "upgradable": {
+        "upgrades": [],
+        "isUpgraded": false
+      },
+      "valuable": {
+        "price": {
+          "market": 100
+        }
+      }
+    },
+    "ammo": {
+      "templates": ["common", "physical", "stackable", "valuable"],
+      "variety": "heavyPistol",
+      "type": "basic",
+      "ablationValue": 1,
+      "overrides": {
+        "damage": {
+          "mode": "none",
+          "value": "3d6",
+          "minimum": "1d6"
+        },
+        "autofire": {
+          "mode": "none",
+          "value": -1,
+          "minimum": 3
+        }
+      }
+    },
+    "armor": {
+      "templates": [
+        "common",
+        "effects",
+        "electronic",
+        "equippable",
+        "physical",
+        "upgradable",
+        "valuable",
+        "container"
+      ],
+      "isHeadLocation": false,
+      "headLocation": {
+        "sp": 0,
+        "ablation": 0
+      },
+      "isBodyLocation": true,
+      "bodyLocation": {
+        "sp": 7,
+        "ablation": 0
+      },
+      "isShield": false,
+      "shieldHitPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "penalty": 0
+    },
+    "clothing": {
+      "templates": [
+        "common",
+        "effects",
+        "electronic",
+        "equippable",
+        "physical",
+        "stackable",
+        "upgradable",
+        "valuable",
+        "container"
+      ],
+      "type": "jacket",
+      "style": "genericChic"
+    },
+    "criticalInjury": {
+      "templates": ["common", "effects"],
+      "location": "body",
+      "quickFix": {
+        "type": "firstAidParamedic",
+        "dvFirstAid": 0,
+        "dvParamedic": 0
+      },
+      "treatment": {
+        "type": "paramedicSurgery",
+        "dvParamedic": 0,
+        "dvSurgery": 0
+      },
+      "deathSaveIncrease": false
+    },
+    "cyberware": {
+      "templates": [
+        "attackable",
+        "common",
+        "effects",
+        "electronic",
+        "installable",
+        "loadable",
+        "physical",
+        "upgradable",
+        "valuable",
+        "container"
+      ],
+      "type": "cyberArm",
+      "isWeapon": false,
+      "isFoundational": true,
+      "core": false,
+      "humanityLoss": {
+        "static": 3,
+        "roll": "1d6"
+      }
+    },
+    "cyberdeck": {
+      "templates": [
+        "common",
+        "electronic",
+        "physical",
+        "upgradable",
+        "equippable",
+        "installable",
+        "valuable",
+        "container"
+      ],
+      "programs": {
+        "installed": [],
+        "rezzed": []
+      }
+    },
+    "drug": {
+      "templates": [
+        "common",
+        "effects",
+        "equippable",
+        "physical",
+        "stackable",
+        "valuable"
+      ],
+      "consumed": "None"
+    },
+    "gear": {
+      "templates": [
+        "common",
+        "effects",
+        "electronic",
+        "equippable",
+        "physical",
+        "stackable",
+        "upgradable",
+        "valuable",
+        "container"
+      ]
+    },
+    "itemUpgrade": {
+      "templates": [
+        "attackable",
+        "common",
+        "electronic",
+        "effects",
+        "equippable",
+        "physical",
+        "installable",
+        "loadable",
+        "valuable",
+        "container"
+      ],
+      "handsReq": 0,
+      "type": "weapon",
+      "modifiers": {
+        "secondaryWeapon": {
+          "configured": false
+        }
+      }
+    },
+    "netarch": {
+      "templates": ["common", "valuable"],
+      "floors": []
+    },
+    "program": {
+      "templates": ["common", "effects", "installable", "valuable"],
+      "class": "defender",
+      "blackIceType": "antipersonnel",
+      "prototypeActor": "",
+      "interface": 0,
+      "isRezzed": false,
+      "damage": {
+        "standard": "1d6",
+        "blackIce": ""
+      },
+      "per": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "rez": 0
+    },
+    "role": {
+      "templates": ["common"],
+      "rank": 0,
+      "mainRoleAbility": "",
+      "hasRoll": true,
+      "addRoleAbilityRank": true,
+      "stat": "--",
+      "skill": "--",
+      "bonuses": [],
+      "universalBonuses": [],
+      "bonusRatio": 1,
+      "abilities": [],
+      "isSituational": false,
+      "onByDefault": false
+    },
+    "skill": {
+      "templates": ["common"],
+      "level": 0,
+      "stat": "int",
+      "category": "none",
+      "difficulty": "typical",
+      "core": false,
+      "basic": false
+    },
+    "vehicle": {
+      "templates": [
+        "common",
+        "physical",
+        "upgradable",
+        "valuable",
+        "container"
+      ],
+      "sdp": 0,
+      "seats": 0,
+      "speedCombat": 0,
+      "speedNarrative": ""
+    },
+    "weapon": {
+      "templates": [
+        "attackable",
+        "common",
+        "effects",
+        "equippable",
+        "loadable",
+        "physical",
+        "upgradable",
+        "valuable",
+        "container"
+      ],
+      "handsReq": 1
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{{cprTrace "START ITEM SETTINGS MIXIN CPR-CONTAINER.HBS"}}
+<hr/>
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.common.installedItemsAllowed"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    {{#if this.editable }}
+      {{#if (cprIsEmpty item.system.installedItems.list) }}
+        {{#if item.system.installedItems.allowed }}
+          <a class="item-checkbox" data-target="system.installedItems.allowed"><i class="far fa-check-circle"></i></a>
+        {{else}}
+          <a class="item-checkbox" data-target="system.installedItems.allowed"><i class="far fa-circle"></i></a>
+        {{/if}}
+      {{else}}
+        <i class="far fa-check-circle"
+           data-tooltip="{{localize "CPR.itemSheet.hasInstalledItems"}}"></i>
+      {{/if}}
+    {{else}}
+      {{#if item.system.installedItems.allowed }}
+        <i class="far fa-check-circle"></i>
+      {{else}}
+        <i class="far fa-circle"></i>
+      {{/if}}
+    {{/if}}
+  </div>
+</li>
+{{#if item.system.installedItems.allowed }}
+  <li class="item flexrow">
+    <div class="item flexrow setting-name text-nowrap text-semi">
+      {{#if this.editable }}
+        <a class="manage-installable-types">{{localize "CPR.itemSheet.common.installedItemTypesAllowed"}}<i class="text-smallest text-super fas fa-wrench"></i></a>
+      {{else}}
+        <span class="manage-installable-types">{{localize "CPR.itemSheet.common.installedItemTypesAllowed"}}<i class="text-smallest text-super fas fa-wrench"></i></span>
+      {{/if}}
+    </div>
+    <div class="item flexrow setting-name text-nowrap text-padding-left">
+      <ul>
+        {{#each item.system.installedItems.allowedTypes as |type| }}
+          <li>{{localize (cprFindConfigValue "objectTypes" type)}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </li>
+{{/if}}
+<hr/>
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap text-semi">
+    {{#if this.editable }}
+      <a class="manage-installed-items">
+        {{localize "CPR.itemSheet.common.installedItems"}}
+        <i class="text-smallest text-super fas fa-wrench"></i>
+      </a>
+    {{else}}
+      <span class="manage-installed-items">
+        {{localize "CPR.itemSheet.common.installedItems"}}
+        <i class="text-smallest text-super fas fa-wrench"></i>
+      </span>
+    {{/if}}
+  </div>
+  <div>
+    {{localize "CPR.itemSheet.container.availableSlots"}}: {{cprMath "subtract" (cprApplyUpgrade item item.system.installedItems.slots "slots") item.system.installedItems.usedSlots}}
+    {{#if (cprCompare (cprApplyUpgrade item item.system.installedItems.slots "slots") "!==" item.system.installedItems.slots) }}
+      <i class="text-smallest text-super text-super fa-solid fa-square-up"></i>{{/if}}
+    </div>
+  </li>
+  {{#if (cprCompare item.system.installedItems.list.length ">" 0) }}
+    <li class="item flexrow">
+      <div class="item flexrow setting-name text-nowrap text-padding-left-smaller">
+        {{#each item.system.installedItems.list as |UUID| }}
+          {{#unless (cprCompare (cprGetProp (cprGetOwnedItem ../item.actor UUID) "type") "===" "program")}}
+            {{cprGetProp (cprGetOwnedItem ../item.actor UUID) "name"}} ({{localize (cprFindConfigValue "objectTypes" (cprGetProp (cprGetOwnedItem ../item.actor UUID) "type"))}})
+        {{/unless}}
+      {{/each}}
+    </div>
+  </li>
+{{/if}}
+{{cprTrace "END CPR-CONTAINER.HBS"}}

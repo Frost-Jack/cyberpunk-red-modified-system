@@ -1,0 +1,429 @@
+{
+  "label": "Киберимпланты",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Amplified Hearing": {
+      "name": "Усиленный слух",
+      "description": "<p>Provides +2 to perception checks that use hearing.</p>"
+    },
+    "Anti-Dazzle": {
+      "name": "Антиблик",
+      "description": "<p>Работают в паре. Имунитет к ослепляющим эффектам (например от светошумовых).</p>"
+    },
+    "Artificial Shoulder Mount": {
+      "name": "Искусственные плечи",
+      "description": "<p>Позволяют установить дополнительную пару киберрук.</p>"
+    },
+    "Audio Recorder": {
+      "name": "Диктофон",
+      "description": "<p>Записывает звук. Возможна связь с щепкой или агентом.</p>"
+    },
+    "AudioVox": {
+      "name": "АудиоVox",
+      "description": "<p>Автотюн голоса. +2 к проверкам актёрской игры и игры на музыкальных инструментах.</p>"
+    },
+    "Big Knucks": {
+      "name": "Большие кастеты",
+      "description": "<p>Бронированные кастеты, что могут применяться как оружие ближнего боя.</p>"
+    },
+    "Biomonitor": {
+      "name": "Биомонитор",
+      "description": "<p>ЖК-экран с информацией о жизнедеятельности носителя. Может быть связан с агентом.</p>"
+    },
+    "Braindance Recorder": {
+      "name": "Имплант записи брейндансов",
+      "description": "<p>Записывает воспоминания для воспроизведения в виде брейндансе. Подходит для медийщиков.</p>"
+    },
+    "Bug Detector": {
+      "name": "Обнаружитель жучков",
+      "description": "<p>Сообщает о жучках в радиусе 2м/ярд.</p>"
+    },
+    "Chemical Analyzer": {
+      "name": "Химический анализатор",
+      "description": "<p>Щепка. Позволяет узнать состав вещества.</p>"
+    },
+    "Chemskin": {
+      "name": "Химкожа",
+      "description": "<p>+2 к проверкам ухода за собой, если используется с техволосами. Меняет цвет кожи.</p>"
+    },
+    "Chipware Socket": {
+      "name": "Слот для чипов",
+      "description": "<p>Слот для установки и удаления чипа.</p>"
+    },
+    "Chyron": {
+      "name": "Chyron",
+      "description": "<p>Маленький экранчик в глазу. Показывает картинку в картинку, чтобы скрасить скуку.</p>"
+    },
+    "Color Shift": {
+      "name": "Color Shift",
+      "description": "<p>Позволяет менять цвет глаз без ограничений в цветах и рисунках.</p>"
+    },
+    "Contraceptive Implant": {
+      "name": "Имплантат контрацепции",
+      "description": "<p>Предотвращает нежелательную беременность.</p>"
+    },
+    "Cyberarm": {
+      "name": "Киберрука",
+      "description": "<p>Кибернетическая рука. Бесплатная ладонь в комплекте.</p>"
+    },
+    "Cyberaudio Suite": {
+      "name": "Система кибераудио",
+      "description": "<p>Интерфейс для улучшений аудио.</p>"
+    },
+    "Cyberdeck (Hardwired)": {
+      "name": "Кибердека (встроенная)",
+      "description": "<p>Встроенная кибердека, так она будет всегда с собой.</p>"
+    },
+    "Cybereye": {
+      "name": "Киберглаз",
+      "description": "<p>Искусственный глаз. Выбирай оптику Кироси!</p>"
+    },
+    "Cyberleg": {
+      "name": "Кибернога",
+      "description": "<p>Кибернетическая нога. Бесплатная ступня в комплекте.</p>"
+    },
+    "Cybersnake": {
+      "name": "Киберзмея",
+      "description": "<p>A throat snake which is a Very Heavy Melee weapon.</p>"
+    },
+    "Dartgun": {
+      "name": "Дротикомёт",
+      "description": "<p>Однозарядный экзотический очень тяжёлый пистолет, что скрыт в глазу. См. стр. 348 Core Book'а.</p>"
+    },
+    "Difficult Skill Chip": {
+      "name": "Щепка со сложным навыком",
+      "description": "<p>Щепка. Даёт третий уровень конкретного сложного навыка при установке (если он уже не выше или равен третьему).</p>"
+    },
+    "EMP Threading": {
+      "name": "Шелкография от ЭМИ",
+      "description": "<p>Кожа выглядит как интегральная схема.</p>"
+    },
+    "Enhanced Antibodies": {
+      "name": "Улучшенные Антитела",
+      "description": "<p>Удваивает скорость лечения во время отдыха.</p>"
+    },
+    "Gills": {
+      "name": "Жабры",
+      "description": "<p>Позволяет дышать под водой.</p>"
+    },
+    "Grafted Muscle and Bone Lace": {
+      "name": "Усиленные мышцы и кости",
+      "description": "<p>+2 к ТЕЛ. Складывается. Максимально 10 ТЕЛ.</p>"
+    },
+    "Grapple Hand": {
+      "name": "Рука-кошка",
+      "description": "<p>Складной крюк кошка в твоей ладони.</p>"
+    },
+    "Grip Foot": {
+      "name": "Цепкие ступни",
+      "description": "<p>Работают в паре. Обеспечивает трение для перемещения вертикально.</p>"
+    },
+    "Hardened Shielding (Cyber Arm)": {
+      "name": "Усиленная защита (Киберрука)",
+      "description": "<p>Рука и её модули игнорируют ЭМИ.</p>"
+    },
+    "Hardened Shielding (Cyber Leg)": {
+      "name": "Усиленная защита (Кибернога)",
+      "description": "<p>Нога и её модули игнорируют ЭМИ.</p>"
+    },
+    "Hidden Holster": {
+      "name": "Скрытая кобура",
+      "description": "<p>Кобура спрятанная внутри тебя.</p>"
+    },
+    "Homing Tracer": {
+      "name": "Трассировщик",
+      "description": "<p>Трассировка метки до одной мили (1.75км). Никаких замен.</p>"
+    },
+    "Image Enhance": {
+      "name": "Улучшение изображения",
+      "description": "<p>Работают в паре. +2 к проверкам внимания, чтения по губам и сокрытию/обнаружению объекта.</p>"
+    },
+    "Implanted Linear Frame β (Beta)": {
+      "name": "Имплантированная линейная рама β (Бета)",
+      "description": "<p>ТЕЛ 14 (влияет на ПЗ и на исп. смерти).</p>"
+    },
+    "Implanted Linear Frame ∑ (Sigma)": {
+      "name": "Имплантированная линейная рама ∑ (Сигма)",
+      "description": "<p>ТЕЛ 12 (влияет на ПЗ и на исп. смерти).</p>"
+    },
+    "Independent Air Supply": {
+      "name": "Независиммый контур дыхания",
+      "description": "<p>Запас воздуха на 30 минут. Можно заправлять.</p>"
+    },
+    "Interface Plugs": {
+      "name": "Разъём интерфейса",
+      "description": "<p>Разъёмы в кисти или в голове для подключения к машинам/системам.</p>"
+    },
+    "Internal Agent": {
+      "name": "Внутренний Агент",
+      "description": "<p>Встроенный агент. Аудио может быть связано только с другими имплантами.</p>"
+    },
+    "Jump Booster": {
+      "name": "Усилитель прыжков",
+      "description": "<p>Работают в паре. Встроенная гидравлика, убирающая штраф на прыжки.</p>"
+    },
+    "Kerenzikov": {
+      "name": "Керензиков",
+      "description": "<p>Ускоритель. +2 к инициативе.</p>"
+    },
+    "Level Damper": {
+      "name": "Подавитель громкости",
+      "description": "<p>Иммунитет к глухоте и громким звукам.</p>"
+    },
+    "Light Tattoo": {
+      "name": "Светотату",
+      "description": "<p>Светящиеся татуировки. +2 к проверкам стиля и гардероба если установлено более трёх.</p>"
+    },
+    "Low Light/IR/UV": {
+      "name": "Слабое освещение/ИК/УФ",
+      "description": "<p>Работают в паре. Иммунитет к штрафам на зрение из-за освещения, тумана или дыма.</p>"
+    },
+    "Meat Arm": {
+      "name": "Мясная рука",
+      "description": "<p>Обычная рука. Годится для установки имплантов для стандартной кисти или для исключительных имплантов в руку.</p>"
+    },
+    "Meat Leg": {
+      "name": "Мясная нога",
+      "description": "<p>Обычная нога. Годится для установки имплантов для стандартной ступни или для исключительных имплантов в ногу.</p>"
+    },
+    "Medical Grade Cyberarm": {
+      "name": "Medical Grade Cyberarm",
+      "description": "<p>A medical grade cyberarm. Does not allow options to be installed.</p>"
+    },
+    "Medical Grade Cyberleg": {
+      "name": "Medical Grade Cyberleg",
+      "description": "<p>A medical grade cyberleg. Does not allow options to be installed.</p>"
+    },
+    "Medscanner": {
+      "name": "Медсканер",
+      "description": "<p>Встроенный медсканнер помогающий в лечении ранений. +2 к проверкам первой помощи и парамедика.</p>"
+    },
+    "Memory Chip": {
+      "name": "Щепка для данных",
+      "description": "<p>Щепка. Хранилище данных. Флешка для твоего мозга. Не забывай безопасно извлекать.</p>"
+    },
+    "MicroOptics": {
+      "name": "МикроОптика",
+      "description": "<p>Приближение до х400!</p>"
+    },
+    "MicroVideo": {
+      "name": "МикроВидео",
+      "description": "<p>Камера в глазу, что может быть связана с щепкой или агентом. Подходит для медийщиков.</p>"
+    },
+    "Midnight Lady Sexual Implant": {
+      "name": "Сексуальный имплант Midnight Lady",
+      "description": "<p>Пригодно для чистки.</p>"
+    },
+    "Mr. Studd Sexual Implant": {
+      "name": "Сексуальный имплант Mr. Studd",
+      "description": "<p>Готов тогда, когда ты готов.</p>"
+    },
+    "MultiOptic Mount": {
+      "name": "Крепление MultiOptic",
+      "description": "<p>Позволяет установить ещё пять киберглаз. Глаза продаются отдельно.</p>"
+    },
+    "Nasal Filters": {
+      "name": "Носовые фильтры",
+      "description": "<p>Иммунитет к вдыхаемым газам и запахам.</p>"
+    },
+    "Neural Link": {
+      "name": "Нейронная связь",
+      "description": "<p>Доступ к нервной системе.</p>"
+    },
+    "Olfactory Boost": {
+      "name": "Усилитель обоняния",
+      "description": "<p>Щепка. Позволяет отслеживать запахи.</p>"
+    },
+    "Pain Editor": {
+      "name": "Редактор боли",
+      "description": "<p>Щепка. Убирает штраф от серьёзного ранения.</p>"
+    },
+    "Plastic Covering (Cyber Arm)": {
+      "name": "Пластиковое покрытие (Киберрука)",
+      "description": "<p>Пластиковая оболочка для твоей руки.</p>"
+    },
+    "Plastic Covering (Cyber Leg)": {
+      "name": "Пластиковое покрытие (Кибернога)",
+      "description": "<p>Пластиковая оболочка для твоей ноги.</p>"
+    },
+    "Popup Grenade Launcher": {
+      "name": "Встроенный гранатомёт",
+      "description": "<p>Скрытый однозарядный гранатомёт. Во время использования ладонь не может ничего держать.</p>",
+      "dvTable": "СЛ Гранатомет"
+    },
+    "Popup Melee Weapon": {
+      "name": "Встроенное оружие ближнего боя",
+      "description": "<p>Скрытое оружие ближнего боя. Во время использования ладонь не может ничего держать.</p>"
+    },
+    "Popup Ranged Weapon": {
+      "name": "Встроенное дистанционное оружие",
+      "description": "<p>Скрытый одноручное оружие дальнего боя. Во время использования ладонь не может ничего держать.</p>"
+    },
+    "Popup Shield": {
+      "name": "Встроенный щит",
+      "description": "<p>Складной пулестойкий щит, складывающийся и раскладывающийся с лёгкостью. Во время использования ладонь не может ничего держать.</p>"
+    },
+    "Quick Change Mount": {
+      "name": "Быстросъёмный шарнир",
+      "description": "<p>Твоя киберрука может быть с лёгкостью снята и надета. Не потеряй её только.</p>"
+    },
+    "Radar Detector": {
+      "name": "Система обнаружения излучения",
+      "description": "<p>Предупреждает об активном облучении на дистанциях до мили (1.75км).</p>"
+    },
+    "Radar/Sonar Implant": {
+      "name": "Radar/Sonar Implant",
+      "description": "<p>Scans 50m/yds around you. Doesn't work through cover. </p>"
+    },
+    "Radiation Detector": {
+      "name": "Радиационный детектор",
+      "description": "<p>Показывает радиацию как синее свечение на дистанциях до 100м/ярд.</p>"
+    },
+    "Radio Communicator": {
+      "name": "Радиокоммуникатор",
+      "description": "<p>Встроенная говорилка на милю (1.75км).</p>"
+    },
+    "Radio Scanner/Music Player": {
+      "name": "Радиоприёмник/Музыкальный плеер",
+      "description": "<p>Включай радиостанции CitiNet или сохранённую локально музыку.</p>"
+    },
+    "Realskinn Covering (Cyber Arm)": {
+      "name": "Покрытие Realskinn (Киберрука)",
+      "description": "<p>Искусственная кожа для твоей руки.</p>"
+    },
+    "Realskinn Covering (Cyber Leg)": {
+      "name": "Покрытие Realskinn (Кибернога)",
+      "description": "<p>Искусственная кожа для твоей ноги.</p>"
+    },
+    "Rippers": {
+      "name": "Потрошители",
+      "description": "<p>Очень острые ногти равные среднему оружию ближнего боя. Могут быть скрыты.</p>"
+    },
+    "Sandevistan": {
+      "name": "Сандевистен",
+      "description": "<p>Ускоритель. +3 к инициативе на минуту. Час перезагрузка.</p>"
+    },
+    "Scrambler/Descrambler": {
+      "name": "Скремблер/Дескремблер",
+      "description": "<p>Кодирует и декодирует передачи.</p>"
+    },
+    "Scratchers": {
+      "name": "Ногтеточки",
+      "description": "<p>Острые ногти равные лёгкому оружию ближнего боя. Могут быть скрыты.</p>"
+    },
+    "Sensor Array": {
+      "name": "Набор сенсоров",
+      "description": "<p>Позволяет установить до пяти опциональных имплантов кибераудио.</p>"
+    },
+    "Shift Tacts": {
+      "name": "Shift Tacts",
+      "description": "<p>Изменяйте цвет глаз по желанию.</p>"
+    },
+    "Shoulder Cam": {
+      "name": "Камера на плече",
+      "description": "<p>Складная камера на плече. Может быть подключена к щепке или агенту.</p>"
+    },
+    "Skate Foot": {
+      "name": "Ступня c роликом",
+      "description": "<p>Работают в паре. Во время бега увеличивает СКО на 6м/ярд.</p>"
+    },
+    "Skill Chip": {
+      "name": "Щепка с навыком",
+      "description": "<p>Щепка. Даёт третий уровень конкретного навыка при установке (если он уже не выше или равен третьему).</p>"
+    },
+    "Skin Weave": {
+      "name": "Усиление кожи",
+      "description": "<p>External Body Cyberware*. Head and Body Armor SP7 and recovers 1SP/day. Armor does not stack.</p>\n<p><em>* Cyberware Armor does not function as armor in the system, please add the \"Skin Weave\" item to the character/mook to track</em></p>"
+    },
+    "Skinwatch": {
+      "name": "Skinwatch",
+      "description": "<p>ЖК-часы у вас под кожей.</p>"
+    },
+    "Slice 'N Dice": {
+      "name": "Мясорубка",
+      "description": "<p>Моноструна равная среднему оружию ближнего боя. Может бысть скрыта.</p>"
+    },
+    "Standard Foot": {
+      "name": "Стандартная ступня",
+      "description": "<p>По большей части выглядит как нормальная ступня.</p>"
+    },
+    "Standard Hand": {
+      "name": "Стандартная ладонь",
+      "description": "<p>По большей части выглядит как нормальная кисть.</p>"
+    },
+    "Subdermal Armor": {
+      "name": "Подкожная броня",
+      "description": "<p>External Body Cyberware*. Head and Body Armor SP11 and recovers 1SP/day. Armor does not stack.</p>\n<p><em>* Cyberware Armor does not function as armor in the system, please add the \"Subdermal Armor\" item to the character/mook to track</em></p>"
+    },
+    "Subdermal Grip": {
+      "name": "Подкожный хват",
+      "description": "<p>Система в кисти, позволяющая пользоватсья умным оружием. Требует нейронную связь.</p>"
+    },
+    "Subdermal Pocket": {
+      "name": "Подкожный карман",
+      "description": "<p>Карман 2 на 4 дюйма (5 на 10 см).</p>"
+    },
+    "Superchrome Covering (Cyber Arm)": {
+      "name": "Суперхромное покрытие (Киберрука)",
+      "description": "<p>Металлическое покрытие для твоей руки. +2 к проверкам гардероба и стиля.</p>"
+    },
+    "Superchrome Covering (Cyber Leg)": {
+      "name": "Суперхромное покрытие (Кибернога)",
+      "description": "<p>Металлическое покрытие для твоей ноги. +2 к проверкам гардероба и стиля.</p>"
+    },
+    "Tactile Boost": {
+      "name": "Тактильный усилитель",
+      "description": "<p>Щепка. Может обнаруживать движение на дистанциях до 20м/ярд через поверхности.</p>"
+    },
+    "Talon Foot": {
+      "name": "Ступня кортик",
+      "description": "<p>Складной клинок в ступне равный лёгкому оружию ближнего боя.</p>"
+    },
+    "Targeting Scope": {
+      "name": "Targeting Scope",
+      "description": "<p>+1 к проверкам прицельного выстрела.</p>"
+    },
+    "Techhair": {
+      "name": "Техволосы",
+      "description": "<p>+2 к проверкам ухода за собой с химкожей. Позволяет менять цвет волос.</p>"
+    },
+    "Techscanner": {
+      "name": "Техсканер",
+      "description": "<p>Содержит множество гаджетов и инструментов. +2 к проверкам множества навыков.</p>"
+    },
+    "TeleOptics": {
+      "name": "ТелеОптика",
+      "description": "<p>Telescope in your eye up to 800m/yds. +1 to single shot/aimed shot if greater than 50m away.</p>"
+    },
+    "Tool Hand": {
+      "name": "Ладонь инструмент",
+      "description": "<p>В каждом пальце у тебя свой инструмент. Идеально для техов!</p>"
+    },
+    "Toxin Binders": {
+      "name": "Блокираторы токсинов",
+      "description": "<p>+2 к проверкам на сопротивление пыткам/препаратам.</p>"
+    },
+    "Vampyres": {
+      "name": "Вампиры",
+      "description": "<p>Острые клыки равные лёгкому оружию ближнего боя. Могут впрыскивать яды и токсины.</p>"
+    },
+    "Virtuality": {
+      "name": "Виртуальность",
+      "description": "<p>Работают в паре. Встроенные очки виртуальности.</p>"
+    },
+    "Voice Stress Analyzer": {
+      "name": "Анализатор стресса в голосе",
+      "description": "<p>+2 к проверкам проницательности и допроса. Есть режим распознания лжи.</p>"
+    },
+    "Web Foot": {
+      "name": "Перепончатые ступни",
+      "description": "<p>Работают в паре. Перепонки между пальцами помогающие в плавании.</p>"
+    },
+    "Wolvers": {
+      "name": "Лезвия",
+      "description": "<p>Когти, скрываемые за костяшками пальцев, равные тяжёлому оружию ближнего боя. Могут быть скрыты.</p>"
+    }
+  }
+}

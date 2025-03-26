@@ -1,0 +1,130 @@
+{
+  "label": "Véhicules",
+  "mapping": {},
+  "entries": {
+    "AeroCop": {
+      "name": "AeroCop",
+      "description": "<p> Aérodyne type AV4. Version police.</p>\n<p>On peut trouver les statistiques complètes dans Black Chrome à la page 61.</p>"
+    },
+    "AeroVox": {
+      "name": "AeroVox",
+      "description": "<p>Aérodyne type AV4. Version civile.</p>\n<p>On peut trouver les statistiques complètes dans Black Chrome à la page 61.</p>"
+    },
+    "Badger Corporate Bus": {
+      "name": "Badger Corporate Bus",
+      "description": "<p>Un bus luxueux pour les déplacements routiers corpos. Également équipé pour les réunions de travail et pour des boissons d'après travail .</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 80.</p>"
+    },
+    "Bellhop": {
+      "name": "Bellhop",
+      "description": "<p>Un Gyrocoptère une place qui peut être plié à la taille d'une grande valise.</p>\n<p>Les statistiques complètes peuvent être trouvées dans Black Chrome à la page 60.</p>"
+    },
+    "Chupacabra": {
+      "name": "Chupacabra",
+      "description": "<p>Véhicule terrestre compact construit à partir de pièces recyclées de véhicules plus anciens. Faible technologie et haute puissance.</p>\n<p>On peut trouver des détails complets dans Black Chrome à la page 66.</p>"
+    },
+    "Destination": {
+      "name": "Destination",
+      "description": "<p>Aérodyne type AV4. Version civile.</p>\n<p>On peut trouver les statistiques complètes dans Black Chrome à la page 62.</p>"
+    },
+    "Ebi": {
+      "name": "Ebi",
+      "description": "<p>Voiture terrestre compacte, petite mais bien pensée .</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 72.</p>"
+    },
+    "EconoCompact": {
+      "name": "EconoCompact",
+      "description": "<p>Voiture terrestre compacte, petite mais bien pensée .</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 64.</p>"
+    },
+    "Family Star Van": {
+      "name": "Family Star Van",
+      "description": "<p>Une voiture terrestre familiale compacte et confortable.</p>\n<p>On peut trouver des détails complets dans Black Chrome à la page 65.</p>"
+    },
+    "Gorgon Security Van": {
+      "name": "Gorgon van de sécurité",
+      "description": "<p>Une camionnette monstrueuse blindée.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 73.</p>"
+    },
+    "Grundy": {
+      "name": "Grundy",
+      "description": "<p>Voiture terrestre compacte blindée, look industriel.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 68.</p>"
+    },
+    "Harriet 100": {
+      "name": "Harriet 100",
+      "description": "<p>Une moto de route classique avec un look plus féminin.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 69.</p>"
+    },
+    "Harvey 100": {
+      "name": "Harvey 100",
+      "description": "<p>Une moto de route classique.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 69.</p>"
+    },
+    "Harvey Merc": {
+      "name": "Harvey Merc",
+      "description": "<p>Une moto de route classique, mais avec des armes montées.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 69.</p>"
+    },
+    "Herakles": {
+      "name": "Herakles",
+      "description": "<p>Transport de troupes de type AV4, blindé et armé.</p>\n<p>On peut trouver les statistiques complètes dans Black Chrome à la page 63.</p>"
+    },
+    "Highway Master Artemis": {
+      "name": "Highway Master Artemis",
+      "description": "<p>Une moto de route basse avec habitacle en verre rétractable. A un mode surcharge qui n'est pas fourni avec une garantie de sécurité.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 70.</p>"
+    },
+    "JetBoy Hoverboard": {
+      "name": "Hoverboard JetBoy",
+      "description": "<p>Un hoverboard piloté avec la compétence Athlétisme. Ne peut pas être amélioré.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 78.</p>"
+    },
+    "MegaHauler": {
+      "name": "MegaHauler",
+      "description": "<p>Camion de transport blindé. Ressemble plus à un train qu'à une voiture.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 79.</p>"
+    },
+    "Molly 1K": {
+      "name": "Molly 1K",
+      "description": "<p>Voiture terrestre compacte tout-terrains.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 82.</p>"
+    },
+    "Paladin 500": {
+      "name": "Paladin 500",
+      "description": "<p>Une voiture terrestre haute performance. Maintenant vous pouvez être MadMax. En ville. Avec deux mitrailleuses montées.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 75.</p>"
+    },
+    "Parallax Cybercycle": {
+      "name": "Cybercycle Parallax",
+      "description": "<p>Haut de gamme des superbikes.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 83.</p>"
+    },
+    "Range Trike": {
+      "name": "Range Trike",
+      "description": "<p>Moto de route à trois roues.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 67.</p>"
+    },
+    "SH-45 Patroller Law": {
+      "name": "SH-45 Patroller Law",
+      "description": "<p>Gyrocoptère une place . Version police, avec mitrailleuse montée.</p>\n<p>Des stats complètes peuvent être trouvées dans Black Chrome à la page 58.</p>"
+    },
+    "SH-45 Patroller": {
+      "name": "SH-45 Patroller",
+      "description": "<p>Gyrocoptère une place . Version civile.</p>\n<p>Des statistiques complètes peuvent être trouvées dans Black Chrome à la page 58.</p>"
+    },
+    "Sliver": {
+      "name": "Sliver",
+      "description": "<p>Une moto de route avec tous les gadgets dont vous avez besoin.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 84.</p>"
+    },
+    "Street King Combat Vehicle": {
+      "name": "Véhicule de combat Street King",
+      "description": "<p>Une grosse voiture terrestre haute performance, blindée et à l'aspect militaire.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 77.</p>"
+    },
+    "TDT 004": {
+      "name": "TDT 004",
+      "description": "<p>Hélicoptère de transport de troupes.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 59.</p>"
+    },
+    "The Zacatzontli Pickup Truck": {
+      "name": "Pickup Le Zacatzontli",
+      "description": "<p>Une voiture terrestre compacte équipée pour les voyages hors route.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 74.</p>"
+    },
+    "Thunder-X": {
+      "name": "Thunder-X",
+      "description": "<p>Haut de gamme des voitures terrestres.</p>\n<p>On peut trouver des détails complets dans Black Chrome à la page 76.</p>"
+    },
+    "Volkhov": {
+      "name": "Volkhov",
+      "description": "<p>Un pickup terrestre compact blindé avec mitrailleuse montée. Livré avec une bouteille de vodka.</p>\n<p>On peut trouver tous les détails dans Black Chrome à la page 71.</p>"
+    },
+    "Yang's Wheels Rickshaw": {
+      "name": "Rickshaw Yang's Wheels",
+      "description": "<p>Moto de route avec remorque pour des passagers.</p>\n<p>Vous trouverez tous les détails dans Black Chrome à la page 81.</p>"
+    }
+  }
+}

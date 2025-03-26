@@ -1,0 +1,60 @@
+{{cprTrace "START DIALOG CPR-SELECT-ITEM-UPGRADE-PROMPT.HBS"}}
+<form>
+  {{localize "CPR.dialog.selectItemUpgrades.selectItemUpgrades"}} "{{item.name}}", Choomba!
+  <ol class="items-list">
+    {{!-- Display Available Slots --}}
+    <li class="item flexrow">
+      <div class="item flexrow">
+        <span class="text-semi">
+          {{localize "CPR.itemSheet.itemUpgrade.slots"}}: {{item.system.upgrades.length}}/{{item.system.slots}}
+        </span>
+      </div>
+    </li>
+    <hr/>
+    {{!-- Item Upgrades Header Bar--}}
+    <li class="item flexrow">
+      <div class="item flexrow flex-width-75 item-name">
+        <span class="text-semi text-left">
+          {{localize "CPR.itemSheet.common.itemUpgrades"}}
+        </span>
+      </div>
+      <div class="item flexrow flex-width-10 item-detail">
+        <span class="text-semi text-right">
+          {{localize "CPR.global.generic.slots"}}
+        </span>
+      </div>
+      <div class="item flexrow flex-width-15 item-detail">
+        <span class="text-semi text-align-last-end text-space-around">
+          {{localize "CPR.dialog.common.select"}}
+        </span>
+      </div>
+    </li>
+    {{!-- Item Upgrade Selection --}}
+    {{#each this.availableUpgrades as |upgrade| }}
+      <li class="item flexrow">
+        <div class="item flexrow flex-width-75 text-nowrap item-name">
+          <span class="width-full">
+            {{upgrade.name}}
+          </span>
+        </div>
+        <div class="item flex-width-10 flexrow item-detail text-right">
+          <span>{{upgrade.system.size}}</span>
+        </div>
+        <div class="item flex-width-15 flexrow item-detail text-semi text-align-last-end text-space-around">
+          <span >
+            {{#if upgrade.system.isInstalled }}
+              <input type="checkbox"
+                     name="selectedUpgrade"
+                     value="{{upgrade._id}}"
+                     checked/>
+            {{else}}
+              <input type="checkbox" name="selectedUpgrade" value="{{upgrade._id}}"/>
+            {{/if}}
+          </span>
+        </div>
+      </li>
+    {{/each}}
+    <br/>
+  </ol>
+</form>
+{{cprTrace "END CPR-SELECT-ITEM-UPGRADE-PROMPT.HBS"}}

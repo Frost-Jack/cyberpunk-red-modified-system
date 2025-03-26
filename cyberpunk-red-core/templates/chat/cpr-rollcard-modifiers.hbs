@@ -1,0 +1,20 @@
+{{cprTrace "START CHAT CPR-ROLLCARD-MODIFIERS.HBS"}}
+<div class="text-normal text-semi text-nowrap"
+     data-tooltip="
+       {{#each mods as |mod| }}
+         {{localize mod.source }}
+         {{#if mod.key}}
+           ({{cprGetChangeNameByKey false mod.category mod.key }})
+         {{/if }}: {{numberFormat mod.value sign=true }}
+         <br/>
+       {{/each}}
+       {{#if additionalMods }}
+         {{localize "CPR.rolls.modifiers.additionalMods"}}:
+         {{#each additionalMods as |mod| }}
+           {{numberFormat mod sign=true}}
+           {{#unless @last}},{{/unless}}
+         {{/each}}
+       {{/if}}">
+  {{localize "CPR.rolls.modifiers.modsTotal"}}: {{totalMods}}
+</div>
+{{cprTrace "END CPR-ROLLCARD-MODIFIERS.HBS"}}

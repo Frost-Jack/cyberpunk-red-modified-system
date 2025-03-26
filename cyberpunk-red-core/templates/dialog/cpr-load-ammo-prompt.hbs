@@ -1,0 +1,40 @@
+{{cprTrace "START DIALOG CPR-LOAD-AMMO-PROMPT.HBS"}}
+<form class="dialog-sheet">
+  <div class="dialog-header flexcol">
+    <div class="text-normal text-center">
+      {{localize "CPR.dialog.loadAmmo.selectAmmoToLoadInto"}} {{this.weapon.name}}:
+    </div>
+  </div>
+  <hr/>
+  <div class="dialog-grid flexcol">
+    <ol class="dialog-list">
+      <li class="dialog-item flexrow">
+        <div class="dialog-item-name text-nowrap">
+          {{localize "CPR.actorSheets.commonActions.changeAmmo"}}:
+        </div>
+        <div class="dialog-item-input item-end">
+          <select name="selectedAmmo">
+            {{#select selectedAmmo}}
+              {{#if (cprCompare weapon.system.magazine.ammoData.uuid "!==" "") }}
+                <option value="">
+                  {{localize "CPR.dialog.loadAmmo.unload"}} {{localize "CPR.global.itemTypes.weapon"}}
+                </option>
+              {{/if}}
+              {{#each this.ammoList as |ammo| }}
+                <option value="{{ammo.uuid}}">
+                  {{ammo.name}}
+                  {{#unless (cprStringContainsSubstringList ammo.name (cprListConcat (localize (cprFindConfigValue 'ammoType' ammo.system.type)) ammo.system.type))}}
+                    ({{localize (cprFindConfigValue "ammoType" ammo.system.type)}})
+                  {{/unless}}
+                  [x{{ammo.system.amount}}]
+                </option>
+              {{/each}}
+            {{/select}}
+          </select>
+        </div>
+      </li>
+    </ol>
+  </div>
+  {{> "systems/cyberpunk-red-core/templates/dialog/cpr-dialog-buttons.hbs"}}
+</form>
+{{cprTrace "END CPR-LOAD-AMMO-PROMPT.HBS"}}

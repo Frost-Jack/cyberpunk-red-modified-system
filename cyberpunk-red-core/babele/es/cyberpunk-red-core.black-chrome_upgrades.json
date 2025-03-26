@@ -1,0 +1,26 @@
+{
+  "label": "Actualizaciones",
+  "mapping": {},
+  "entries": {
+    "4Tify": {
+      "name": "4Tificar",
+      "description": "<p>Una aplicación para tu agente. Puedes ver puntos débiles escaneando tu casa. O una sección de la cobertura...</p>\n<p>Reglas completas se pueden encontrar en la página 13.</p>"
+    },
+    "City Database": {
+      "name": "Base de Datos de Ciudad",
+      "description": "<p>Una aplicación para tu agente. Encuentra las mejores direcciones de la ciudad con esta guía. Reglas completas en la página 14.</p>"
+    },
+    "Digital Gladiator": {
+      "name": "Gladiador Digital",
+      "description": "<p>Una aplicación para tu agente. ¡Crea un Mercenario Virtual que lucha por ti en el reino digital!</p>\n<p>Reglas para peleas se pueden encontrar en la página 12.</p>"
+    },
+    "MedScan": {
+      "name": "Escáner-Médico",
+      "description": "<p>Una aplicación para tu agente. Videoconferencias médicas, que te ayudan a mejorar los primeros auxilios, por un precio. Las reglas completas se pueden encontrar en la página 14.</p>"
+    },
+    "NCPD Crime Database": {
+      "name": "Base de Datos del Crimen de NCPD",
+      "description": "<p>Una aplicación para tu agente. Permite al usuario buscar información criminal pública. Las reglas completas para el uso se pueden encontrar en la página 13.</p>\n<p>&nbsp;</p>"
+    }
+  }
+}

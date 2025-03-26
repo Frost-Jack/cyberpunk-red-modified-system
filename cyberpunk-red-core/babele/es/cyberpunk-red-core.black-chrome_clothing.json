@@ -1,0 +1,10 @@
+{
+  "label": "Vestimenta",
+  "mapping": {},
+  "entries": {
+    "Holo-Wear": {
+      "name": "Holo-Vestido",
+      "description": "<p>Ropa holográfica que puede ser deshabilitada por explosiones de EMP por un minuto. Puede intercambiar estilos con una acción si se compra. Consulte la descripción completa del objeto en pg. 35.</p>"
+    }
+  }
+}

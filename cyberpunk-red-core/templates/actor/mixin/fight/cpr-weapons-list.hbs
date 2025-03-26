@@ -1,0 +1,33 @@
+{{cprTrace "START ACTOR MIXIN FIGHT CPR-WEAPONS-LIST.HBS"}}
+<div class="weapon-content">
+  {{#each (cprSort actor.itemTypes.weapon "name") as |weapon|}}
+    {{#if (cprCompare weapon.system.equipped "===" "equipped")}}
+      {{> "systems/cyberpunk-red-core/templates/actor/mixin/fight/mixin/cpr-weapon.hbs" this}}
+      {{!-- Loop over each upgrade and work out if it's a weapon --}}
+      {{#if weapon.system.isUpgraded}}
+        {{#each weapon.system.upgrades as |upgrade|}}
+          {{#if upgrade.system.modifiers.secondaryWeapon.configured}}
+            {{#each (cprFilter ../actor.itemTypes.itemUpgrade "_id" upgrade._id) as |weapon|}}
+              {{> "systems/cyberpunk-red-core/templates/actor/mixin/fight/mixin/cpr-weapon.hbs" this}}
+            {{/each}}
+          {{/if}}
+        {{/each}}
+      {{/if}}
+    {{/if}}
+  {{/each}}
+</div>
+{{#if (cprHasCyberneticWeapons actor) }}
+  <li class="items-header flexrow">
+    <span class="text-padding-left-smallest">
+      {{localize "CPR.characterSheet.bottomPane.fight.cyberwareWeapons"}}
+    </span>
+  </li>
+{{/if}}
+<div class="weapon-content">
+  {{#each (cprSort (cprFilter actor.itemTypes.cyberware "system.isInstalled" true) "name") as |weapon| }}
+    {{#if system.isWeapon }}
+      {{> "systems/cyberpunk-red-core/templates/actor/mixin/fight/mixin/cpr-weapon.hbs" this}}
+    {{/if}}
+  {{/each}}
+</div>
+{{cprTrace "END CPR-WEAPONS-LIST.HBS"}}

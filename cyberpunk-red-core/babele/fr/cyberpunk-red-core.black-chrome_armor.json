@@ -1,0 +1,98 @@
+{
+  "label": "Armures",
+  "mapping": {},
+  "entries": {
+    "AirRider": {
+      "name": "AirRider",
+      "description": "<p>Armure de corps en kevlar qui ignore la blessure critique Coup du lapin due à un accident de voiture tant que le réservoir de CO2 de l'armure est plein*. Référez-vous à la description complète de l'article sur BC p. 33.</p>\n<p><em>*Doit être ajouté manuellement après l'acquisition de l'armure.</em></p>"
+    },
+    "Bunker Gear": {
+      "name": "Tenue de feu",
+      "description": "<p>Armure type Flak, ignifugée avec un masque à gaz intégré et 30 minutes d'oxygène dans une bouteille qui se recharge en une heure. -4 en REF, DEX et MOUV. Reportez-vous à la description complète de l'élément sur BC p. 29.</p>"
+    },
+    "Corporate Island": {
+      "name": "Corporate Island",
+      "description": "<p>Armure pare-balles légère qui ressemble à des vêtements Cadre sup. Reportez-vous à la description complète de l'objet sur BC p. 35.</p>"
+    },
+    "Dirk Combat Jacket": {
+      "name": "Veste de combat Dirk",
+      "description": "<p>Armure pare-balle légère de style Décontracté avec la possibilité de cacher deux chargeurs standards sans jet de compétence. Reportez-vous à la description complète de l'objet sur BC p. 28.</p>"
+    },
+    "Executive Armor": {
+      "name": "Armure Corporatiste",
+      "description": "<p>Armure pare-balle légère qui ressemble à un vêtement Cadre sup. Restaure 1PA par jour où l'armure ne perd pas de PA. Reportez-vous à la description complète de l'élément sur BC p. 34.</p>"
+    },
+    "Laser Light Street Jacket": {
+      "name": "Veste de rue Laser Light",
+      "description": "<p>Armure pare-balles légère de style Urbain Flash, qui compte comme un tatouage lumineux quand elle est portée. Reportez-vous à la description complète de l'objet sur BC p. 31.</p>"
+    },
+    "Lotos Netsuit": {
+      "name": "Combinaison connectée Lotos",
+      "description": "<p>Une combinaison connectée offrant un emplacement matériel supplémentaire de cyberdeck installé directement à l'intérieur. Désinstallé si la combinaison est retirée. Livrée avec une cyberconsole de qualité excellente*. -2 au REF, DEX et MOUV. Reportez-vous à la description complète de l'article sur BC p. 31. </p>\n<p><em>*Doit être ajouté manuellement après l'acquisition de l'armure</em></p>"
+    },
+    "MechaMan Motorcycle Helmet": {
+      "name": "Casque de moto MechaMan",
+      "description": "<p>Un casque de moto en kevlar avec lunettes connectées intégrées fournies avec Bandeau et Faible luminosité / IR / UV préinstallé*. Reportez-vous à la description complète de l'article sur BC p. 37.</p>\n<p><em>*Les lunettes connectées et les options associées doivent être ajoutées manuellement et installées après avoir acquis l'armure.</em></p>"
+    },
+    "Mimic Clothing (Asia Pop)": {
+      "name": "Vêtement Mimic (Pop asiatique)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Pop asiatique\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Bag Lady Chic)": {
+      "name": "Vêtement Mimic (Vagabond)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Vagabond\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Bohemian)": {
+      "name": "Vêtement Mimic (Bohème)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Bohème\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Businesswear)": {
+      "name": "Vêtement Mimic (Cadre sup)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Cadre sup\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Gang Colors)": {
+      "name": "Vêtement Mimic (Couleurs du gang)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Couleurs du gang\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Generic Chic)": {
+      "name": "Vêtement Mimic (Générique)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Générique\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (High Fashion)": {
+      "name": "Vêtement Mimic (Haute couture)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Haute couture\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Leisurewear)": {
+      "name": "Vêtement Mimic (Décontracté)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Décontracté\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Nomad Leathers)": {
+      "name": "Vêtement Mimic (Âme nomade)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Âme nomade\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Mimic Clothing (Urban Flash)": {
+      "name": "Vêtement Mimic (Urbain flash)",
+      "description": "<p>Armure pare-balles légère faite à partir d'un Kit de vêtements Mimic et de vêtements \"Urbain flash\". Reportez-vous à la description complète de l'objet sur BC p. 33.</p>"
+    },
+    "Montage Variable Clothing Line": {
+      "name": "Ligne de Vêtement Montage Variable",
+      "description": "<p>Armure pare-balles légère qui peut changer entre les styles \"Générique\" et \"Couleurs du gang\" en une action avec une palette achetée (20eb par couleur/modèle) et installée sur un Agent. Fournit avec une couleur ou un modèle au choix. Reportez-vous à la description complète de l'élément sur BC p. 32</p>"
+    },
+    "Shock Armor": {
+      "name": "Armure Foudre",
+      "description": "<p>Une armure de Kevlar qui foudroie toute personne qui vous saisit. Référez-vous à la description complète de l'objet sur BC pg. 29.</p>"
+    },
+    "Skid Row Trench": {
+      "name": "Manteau SkidRow",
+      "description": "<p>Armure de corps type Flak qui ressemble à un trench-coat en échange d'une protection réduite. -4 en REF, DEX et MOUV. Reportez-vous à la description complète de l'élément sur BC p. 33.</p>"
+    },
+    "Street Viper Riding Suit": {
+      "name": "Combinaison Street Viper",
+      "description": "<p>Armure de corps en kevlar qui est livrée avec deux armes de mêlée intermédiaires préinstallées* toujours considérées comme sorties tant que l'armure est portée. Reportez-vous à la description complète de l'article sur BC p. 36. </p>\n<p><em>*Doit être ajouté manuellement après l'acquisition de l'armure.</em></p>"
+    },
+    "Tactical Smart Armor": {
+      "name": "Armure tactique connectée",
+      "description": "<p>Une tenue complète d'armure pare-balles moyenne avec des lunettes connectées intégrées*. -2 au REF, DEX et MOUV. Reportez-vous à la description complète de l'article sur BC p. 30</p>\n<p><em>*Les lunettes connectées doivent être ajoutées manuellement après l'acquisition de l'armure.</em></p>"
+    }
+  }
+}

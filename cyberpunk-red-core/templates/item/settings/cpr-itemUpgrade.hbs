@@ -1,0 +1,136 @@
+{{cprTrace "START ITEM SETTINGS CPR-ITEMUPGRADE.HBS"}}
+{{!-- Upgrade Installed Setting --}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.itemUpgrade.upgradeType"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    {{#if this.editable }}
+      <select name="system.type" data-dtype="{{item.system.type}}">
+        {{#select item.system.type}}
+        {{#each (cprEntityTypes "Item") as |itemType| }}
+          {{#if (cprHasTemplate itemType "upgradable") }}
+            <option value="{{itemType}}">
+              {{localize (cprFindConfigValue "objectTypes" itemType)}}
+            </option>
+          {{/if}}
+        {{/each}}
+      {{/select}}
+    </select>
+  {{else}}
+    <span class="text-flex-end">{{localize (cprFindConfigValue "objectTypes" item.type)}}</span>
+  {{/if}}
+</div>
+</li>
+{{!-- If this is a weapon type, see if it is an additional weapon to what it is being--}}
+{{#if (cprCompare (cprCompare item.system.type "===" "weapon") "||" (cprCompare item.system.type "===" "cyberware")) }}
+  <li class="item flexrow">
+    <div class="item flexrow setting-name text-nowrap">
+      {{localize "CPR.itemSheet.itemUpgrade.isSecondaryWeapon"}}
+    </div>
+    <div class="item flexrow setting-value text-nowrap item-end">
+      {{#if this.editable }}
+        {{#if item.system.modifiers.secondaryWeapon.configured }}
+          <a class="item-checkbox"
+             data-target="system.modifiers.secondaryWeapon.configured">
+            <i class="far fa-check-circle"></i>
+          </a>
+        {{else}}
+          <a class="item-checkbox"
+             data-target="system.modifiers.secondaryWeapon.configured">
+            <i class="far fa-circle"></i>
+          </a>
+        {{/if}}
+      {{else}}
+        {{#if item.system.modifiers.secondaryWeapon.configured }}
+          <span>
+            <i class="far fa-check-circle"></i>
+          </span>
+        {{else}}
+          <span>
+            <i class="far fa-circle"></i>
+          </span>
+        {{/if}}
+      {{/if}}
+    </div>
+  </li>
+  {{#if item.system.modifiers.secondaryWeapon.configured }}
+    {{> "systems/cyberpunk-red-core/templates/item/settings/mixin/cpr-attackable.hbs" this}}
+  {{/if}}
+{{/if}}
+{{!-- Size of the upgrade --}}
+<li class="item flexrow">
+  <div class="item flexrow setting-name text-nowrap">
+    {{localize "CPR.itemSheet.itemUpgrade.installationSize"}}
+  </div>
+  <div class="item flexrow setting-value text-nowrap item-end">
+    {{#if this.editable }}
+      <input name="system.size"  type="number" value="{{item.system.size}}"/>
+    {{else}}
+      <span class="text-flex-end">{{item.system.size}}</span>
+    {{/if}}
+  </div>
+</li>
+<hr/>
+{{localize "CPR.itemSheet.itemUpgrade.upgradeOverview"}}
+<hr/>
+{{!-- Cyberware has no upgradable data points, but could have a weapon attachment --}}
+{{#if (cprCompare system.type "!==" "cyberware") }}
+  <li class="item items-header flexrow">
+    <div class="setting-name text-nowrap">
+      {{localize "CPR.itemSheet.itemUpgrade.dataPoint"}}
+    </div>
+    <div class="setting-type text-nowrap">
+      {{localize "CPR.itemSheet.itemUpgrade.modifierType"}}
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      {{localize "CPR.itemSheet.itemUpgrade.modifierValue"}}
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      {{localize "Situational?"}}
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      {{localize "Default On?"}}
+    </div>
+  </li>
+  {{#each (cprFindConfigValue "upgradableDataPoints" item.system.type) as |dataPoint dp| }}
+    {{#if (cprListContains (cprGetProp (cprFindConfigValue "upgradableDataPoints" "upgradeConfig") "configurableTypes") dataPoint.type) }}
+      <li class="item flexrow">
+        <div class="setting-name text-nowrap">
+          {{localize dataPoint.localization}}
+        </div>
+        <div class="setting-type text-nowrap">
+          <select name="system.modifiers.{{dp}}.type"
+                  data-dtype="{{cprGetProp (cprGetProp ../item.system.modifiers dp) "type"}}">
+            {{#select (cprGetProp (cprGetProp ../item.system.modifiers dp) "type")}}
+            {{#each (cprGetProp (cprFindConfigValue "upgradableDataPoints" "upgradeConfig") "configurableTypes") as |configType ct| }}
+              {{#unless (cprCompare (cprListContains "clothing,gear" ../../item.system.type) "&&" (cprCompare ct "!==" "modifier"))}}
+              <option value="{{ct}}">
+                {{localize configType}}
+              </option>
+            {{/unless}}
+          {{/each}}
+        {{/select}}
+      </select>
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      {{#if ../this.editable }}
+        <input name="system.modifiers.{{dp}}.value"
+               type="number"
+               value="{{cprGetProp (cprGetProp ../item.system.modifiers dp) "value"}}"
+               placeholder="0"/>
+      {{else}}
+        <span class="text-flex-end">{{cprGetProp (cprGetProp ../item.system.modifiers dp) "value"}}</span>
+      {{/if}}
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      <input {{#unless (cprCompare dataPoint.isSituational "!==" undefined)}}disabled{{/unless}} name="system.modifiers.{{dp}}.isSituational" type="checkbox" {{checked (cprGetProp (cprGetProp ../item.system.modifiers dp) "isSituational")}}/>
+    </div>
+    <div class="setting-value text-nowrap text-center">
+      <input {{#unless (cprGetProp (cprGetProp ../item.system.modifiers dp) "isSituational")}}disabled{{/unless}} name="system.modifiers.{{dp}}.onByDefault" type="checkbox" {{checked (cprGetProp (cprGetProp ../item.system.modifiers dp) "onByDefault")}}/>
+    </div>
+  </li>
+{{/if}}
+{{/each}}
+{{/if}}
+{{cprTrace "END CPR-ITEMUPGRADE.HBS"}}

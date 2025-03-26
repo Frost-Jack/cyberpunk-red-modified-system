@@ -1,0 +1,10 @@
+{
+  "label": "Vêtements",
+  "mapping": {},
+  "entries": {
+    "Holo-Wear": {
+      "name": "Holo-Wear",
+      "description": "<p>Vêtements holographiques qui peuvent être désactivés par des dispositifs IEM pendant une minute. Permet de changer de style en une action avec une option achetée. Reportez-vous à la description complète de l'élément sur BC p. 35.</p>"
+    }
+  }
+}

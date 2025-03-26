@@ -1,0 +1,230 @@
+{
+  "label": "Вещи",
+  "mapping": {},
+  "entries": {
+    "Cyberdeck (Excellent)": {
+      "name": "Cyberdeck (Excellent)",
+      "description": "<p>Netrunner deck. 9 slots.</p>"
+    },
+    "Cyberdeck (Poor)": {
+      "name": "Cyberdeck (Poor)",
+      "description": "<p>Netrunner deck. 5 slots.</p>"
+    },
+    "Cyberdeck": {
+      "name": "Кибердека",
+      "description": "<p>Дека нетраннера на 7 слотов.</p>"
+    },
+    "Battleglove": {
+      "name": "Боевая перчатка",
+      "description": "<p>An exotic heavy gauntlet, that covers your hand and forearm. Provides three option slots. Refer to the full item description on pg. 347.</p>"
+    },
+    "Smart Glasses": {
+      "name": "Умные очки",
+      "description": "<p>Eyewear with two options slots for cybereye options.</p>"
+    },
+    "Agent": {
+      "name": "Агент",
+      "description": "<p>Смартфон с ИИ. +2 к проверкам поиска по библиотеке и гардероба и стиля, в зависимости от применения.</p>"
+    },
+    "Airhypo": {
+      "name": "Пневмошприц",
+      "description": "<p>Подкожный шприц.</p>"
+    },
+    "Anti-Smog Breathing Mask": {
+      "name": "Дыхательная маска антисмог",
+      "description": "<p>Фильтр воздушных токсинов.</p>"
+    },
+    "Audio Recorder": {
+      "name": "Диктофон",
+      "description": "<p>До суток записи звука на щепке.</p>"
+    },
+    "Auto Level Dampening Ear Protectors": {
+      "name": "Активные наушники",
+      "description": "<p>Носитель невосприимчив к громким звукам.</p>"
+    },
+    "Binoculars": {
+      "name": "Бинокль",
+      "description": "<p>Двух- и трёхкратное приближение.</p>"
+    },
+    "Braindance Viewer": {
+      "name": "Просмоторщик брейндансов",
+      "description": "<p>Устройство для просмотра брейндансов.</p>"
+    },
+    "Bug Detector": {
+      "name": "Обнаружитель жучков",
+      "description": "<p>Обнаружитель прослушивающих устрайств. Радиус 2м/ярд.</p>"
+    },
+    "Carryall": {
+      "name": "Наплечная сумка",
+      "description": "<p>Сумка.</p>"
+    },
+    "Chemical Analyzer": {
+      "name": "Химический анализатор",
+      "description": "<p>Определяет химический состав вещества используя базу данных.</p>"
+    },
+    "Computer": {
+      "name": "Компьютер",
+      "description": "<p>Настольный или ноутбук.</p>"
+    },
+    "Cryopump": {
+      "name": "Криопомпа",
+      "description": "<p>Чемоданчик, подключаемый к пострадавшему, чтобы ввести его в стазис.</p>"
+    },
+    "Cryotank": {
+      "name": "Криокапсула",
+      "description": "<p>Вмещает в себя взрослого человека, раны заживают быстрее обычного.</p>"
+    },
+    "Disposable Cell Phone": {
+      "name": "Одноразовая мобила",
+      "description": "<p>Только голосовые звонки.</p>"
+    },
+    "Drum Synthesizer": {
+      "name": "Драм-машина",
+      "description": "<p>Подключи к усилителю для извлечения звука барабанов.</p>"
+    },
+    "Duct Tape": {
+      "name": "Клейкая лента",
+      "description": "<p>Синяя изолента всегда всё починит.</p>"
+    },
+    "Electric Guitar/Other Instrument": {
+      "name": "Электрогитара/иной инструмент",
+      "description": "<p>Musical instrument. Electric instruments requires an amplifier.</p>"
+    },
+    "Flashlight": {
+      "name": "Фонарик",
+      "description": "<p>10 часов света на одной батарее. Светит на 100м/ярд.</p>"
+    },
+    "Food Stick": {
+      "name": "Питательный батончик",
+      "description": "<p>Батончик, заменяющий нормальную еду.</p>"
+    },
+    "Glow Paint": {
+      "name": "Светящаяся краска",
+      "description": "<p>Светящаяся в темноте краска.</p>"
+    },
+    "Glow Stick": {
+      "name": "Светящаяся палочка",
+      "description": "<p>Живёт 10 часов и освещает 4м/ярд вокруг себя.</p>"
+    },
+    "Grapple Gun": {
+      "name": "Крюк-кошка",
+      "description": "<p>Стреляет на 30м/ярд. Нельзя использовать как оружие.</p>"
+    },
+    "Handcuffs": {
+      "name": "Наручники",
+      "description": "<p>ТЕЛ > 10 ломают их.</p>"
+    },
+    "Homing Tracer": {
+      "name": "Трассировщик",
+      "description": "<p>Радиус работы: миля (1.75км).</p>"
+    },
+    "Inflatable Bed & Sleep-bag": {
+      "name": "Надувная кровать и спальный мешок",
+      "description": "<p>Портативный ночлег.</p>"
+    },
+    "Kibble Pack": {
+      "name": "Набор Kibble",
+      "description": "<p>Одна порция.</p>"
+    },
+    "Linear Frame β (Beta)": {
+      "name": "Линейная рама β (Бета)",
+      "description": "<p>Экзоскелет. Требуется два разъёма интерфейса. ТЕЛ 14 пока подключён. ПЗ и бросок на исп. смерти остаются неизменными.</p>"
+    },
+    "Linear Frame ∑ (Sigma)": {
+      "name": "Линейная рама ∑ (Сигма)",
+      "description": "<p>Экзоскелет. Требуется разъём интерфейса. ТЕЛ 12 пока подключён. ПЗ и бросок на исп. смерти остаются неизменными.</p>"
+    },
+    "Lock Picking Set": {
+      "name": "Набор медвежатника",
+      "description": "<p>Инструменты для взлома механических замков.</p>"
+    },
+    "Medscanner": {
+      "name": "Медсканер",
+      "description": "<p>+2 к проверкам первой помощи и парамедика.</p>"
+    },
+    "Medtech Bag": {
+      "name": "Сумка медтеха",
+      "description": "<p>Медицинский инструментарий.</p>"
+    },
+    "Memory Chip": {
+      "name": "Щепка для данных",
+      "description": "<p>Хранилище данных.</p>"
+    },
+    "MRE": {
+      "name": "MRE",
+      "description": "<p>Переносной паёк. С разогревателем.</p>"
+    },
+    "Personal CarePak": {
+      "name": "Личный CarePak",
+      "description": "<p>Зубная щётка и всё такое.</p>"
+    },
+    "Pocket Amplifier": {
+      "name": "Карманный усилитель",
+      "description": "<p>Этой головы хватает на 6 часов, можно подключить до двух инструментов.</p>"
+    },
+    "Radar Detector": {
+      "name": "Система обнаружения излучения",
+      "description": "<p>Система обнаружения облучения радаром. Радиус обнаружения: 100м/ярд.</p>"
+    },
+    "Radiation Suit": {
+      "name": "Радиационный костюм",
+      "description": "<p>Защищает носителя от радиации.</p>"
+    },
+    "Radio Communicator": {
+      "name": "Радиокоммуникатор",
+      "description": "<p>Радиус: миля (1.75км). Внутриушный.</p>"
+    },
+    "Radio Scanner/Music Player": {
+      "name": "Радиоприёмник/Музыкальный плеер",
+      "description": "<p>Приёмник радиосигналов. Радиус: миля (1.75км).</p>"
+    },
+    "Road Flare": {
+      "name": "Дорожный сигнал",
+      "description": "<p>Светит час на 100м/ярд.</p>"
+    },
+    "Rope (60m/yd)": {
+      "name": "Верёвка (60м/ярд)",
+      "description": "<p>Нейлон.</p>"
+    },
+    "Scrambler/Descrambler": {
+      "name": "Скремблер/Дескремблер",
+      "description": "<p>Скремблер/дескремблер для передач.</p>"
+    },
+    "Tech Bag": {
+      "name": "Сумка техника",
+      "description": "<p>Сумка с инструментами</p>"
+    },
+    "Techscanner": {
+      "name": "Техсканер",
+      "description": "<p>+2 к различным навыкам основанным на ТЕХ.</p>"
+    },
+    "Techtool": {
+      "name": "Техтул",
+      "description": "<p>Многофункциональный инструмент.</p>"
+    },
+    "Tent and Camping Equipment": {
+      "name": "Тент и набор для кемпинга",
+      "description": "<p>Для одной персоны.</p>"
+    },
+    "Tracer Button": {
+      "name": "Кнопка отслеживания",
+      "description": "<p>Может быть обнаружена за милю (1.75км) с помощью трассировщика.</p>"
+    },
+    "Vial of Biotoxin": {
+      "name": "Ампула с биотоксином",
+      "description": "<p>3d6 урона при провале проверки сопротивления пыткам/препаратам. Броня не учитывается.</p>"
+    },
+    "Vial of Poison": {
+      "name": "Ампула с ядом",
+      "description": "<p>2d6 урона при провале проверки сопротивления пыткам/препаратам. Броня не учитывается.</p>"
+    },
+    "Video Camera": {
+      "name": "Видеокамера",
+      "description": "<p>До 12 часов на одной щепке.</p>"
+    },
+    "Virtuality Goggles": {
+      "name": "Очки виртуальности",
+      "description": "<p>Проецирует киберпространство на реальный мир носителю.</p>"
+    }
+  }
+}

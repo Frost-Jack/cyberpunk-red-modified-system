@@ -1,0 +1,57 @@
+{
+  "label": "Ennemis endurcis",
+  "mapping": {},
+  "entries": {
+    "Hardened Lieutenant Tactics": {
+      "name": "Tactiques des lieutenants endurcis",
+      "results": [
+        {
+          "1-1": "Un sbire tire des munitions incendiaires (Page 346 du livre de règles), mais n'a que 10 balles.",
+          "2-2": "Ajoutez 2 sbires supplémentaires à la rencontre au début du 2e round.",
+          "3-3": "Deux sbires subissent actuellement l'effet principal de la Dentelle noire (Page 357 du livre de règles).",
+          "4-4": "Donnez leur une tenue pare-balles moyenne qui a été améliorée, supprimant la pénalité d'armure.",
+          "5-5": "Donnez leur 600 ed de cyberimplants supplémentaire.",
+          "6-6": "Donne leur une réputation de 5.",
+          "7-7": "Ajoutez un sbire supplémentaire d'un type différent lors de la rencontre.",
+          "8-8": "Ajoutez 2 sbires à la rencontre. Ils auront toutefois une Blessure Critique à la tête chacun.",
+          "9-9": "Ajoutez 1 sbire supplémentaire à la rencontre au début des rounds 2, 3 et 4.",
+          "10-10": "Un sbire a un pistolet-mitrailleur, aucun sens de l'auto-préservation, une base de compétence de Tir automatique de\n16 et ne porte pas d'armure de tête."
+        }
+      ]
+    },
+    "Hardened Mini Boss Mini Promotion": {
+      "name": "Promotion des Mini Boss",
+      "results": [
+        {
+          "1-1": "Un sbire tire des munitions incendiaires (Page 346 du livre de règles), mais n'a que 10 balles.",
+          "2-2": "Ajoutez 2 sbires supplémentaires à la rencontre au début du 2e round.",
+          "3-3": "Deux sbires subissent actuellement l'effet principal de la Dentelle noire (Page 357 du livre de règles).",
+          "4-4": "Le Mini-boss est équipé d'une tenue pare-balles moyenne qui a été améliorée, supprimant la pénalité d'armure.",
+          "5-5": "Le Mini-boss aura 600 ed de cyberimplants supplémentaire.",
+          "6-6": "Le Mini-boss a une réputation de 5.",
+          "7-7": "Ajoutez un sbire supplémentaire d'un type différent lors de la rencontre.",
+          "8-8": "Ajoutez 2 sbires à la rencontre. Ils auront toutefois une Blessure Critique à la tête chacun.",
+          "9-9": "Ajoutez 1 sbire supplémentaire à la rencontre au début des rounds 2, 3 et 4.",
+          "10-10": "Un sbire a un pistolet-mitrailleur, aucun sens de l'auto-préservation, une base de compétence de Tir automatique de\n16 et ne porte pas d'armure de tête."
+        }
+      ]
+    },
+    "Mook Encounter Complication": {
+      "name": "Complications de rencontre d'un sbire",
+      "results": [
+        {
+          "1-1": "Un sbire tire des munitions incendiaires (Page 346 du livre de règles), mais n'a que 10 balles.",
+          "2-2": "Ajoutez 2 sbires supplémentaires à la rencontre au début du 2e round.",
+          "3-3": "Deux sbires subissent actuellement l'effet principal de la Dentelle noire (Page 357 du livre de règles).",
+          "4-4": "Le Mini-boss est équipé d'une tenue pare-balles moyenne qui a été améliorée, supprimant la pénalité d'armure.",
+          "5-5": "Le Mini-boss aura 600 ed de cyberimplants supplémentaire.",
+          "6-6": "Le Mini-boss a une réputation de 5.",
+          "7-7": "Ajoutez un sbire supplémentaire d'un type différent lors de la rencontre.",
+          "8-8": "Ajoutez 2 sbires à la rencontre. Ils auront toutefois une Blessure Critique à la tête chacun.",
+          "9-9": "Ajoutez 1 sbire supplémentaire à la rencontre au début des rounds 2, 3 et 4.",
+          "10-10": "Un sbire a un pistolet-mitrailleur, aucun sens de l'auto-préservation, une base de compétence de Tir automatique de\n16 et ne porte pas d'armure de tête."
+        }
+      ]
+    }
+  }
+}

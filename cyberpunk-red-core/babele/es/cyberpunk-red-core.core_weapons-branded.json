@@ -1,0 +1,188 @@
+{
+  "label": "Armas (de Marca)",
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
+  "entries": {
+    "Avenger": {
+      "name": "Vengadora",
+      "description": "<p>Una pistola media ocultable. +1 al ataque.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Bearcat": {
+      "name": "Manturón",
+      "description": "<p>Arco revitalizado, recargado como parte de una Acción de Ataque.</p>\n<p>+1 al Ataque.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Boomer Buster": {
+      "name": "Destructor de Boomers",
+      "description": "<p>Una Pistola Muy Pesada. No se puede ocultar. +1 para Atacar.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Bulldog": {
+      "name": "Bulldog",
+      "description": "<p>Una escopeta para todos los propósitos. +1 al Ataque. </p>",
+      "dvTable": "VD Escopeta (Perdigones de escopeta)"
+    },
+    "City Reaper": {
+      "name": "Segador de Ciudad",
+      "description": "<p>Un SMG pesado. Debido a su tamaño, no puede ser ocultado. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD SMG"
+    },
+    "Cityhunter": {
+      "name": "Cazador de Ciudad",
+      "description": "<p>Una Pistola Pesada ocultable. +1 al Ataque.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Dragon": {
+      "name": "Dragón",
+      "description": "<p>Un rifle de asalto estándar. +1 para Atacar.</p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "Home Defender": {
+      "name": "Defensor de Casa",
+      "description": "<p>Una escopeta para todos los propósitos. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Escopeta (Perdigones de escopeta)"
+    },
+    "Hotshot": {
+      "name": "Tiro Caliente",
+      "description": "<p>Saca los cañones grandes. Este lanzador de cohetes causará algún daño. +1 al ataque.</p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "Hunter": {
+      "name": "Cazador",
+      "description": "<p>Una ballesta que debe recargarse después de cada ataque. Si tira 1 en el ataque (pifia) la cuerda se suelta y requiere una acción para volver a colocarla. </p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Jungle Reaper": {
+      "name": "Segador de la Jungla",
+      "description": "<p>Un rifle de asalto estándar. Si tira 1 en Ataque (pifia) el rifle se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "Long Rifle": {
+      "name": "Rifle Largo",
+      "description": "<p>Un rifle de francotirador de larga distancia. Carga 4 balas en un cargador. </p>",
+      "dvTable": "VD Rifle de Francotirador"
+    },
+    "Magnum": {
+      "name": "Magnum",
+      "description": "<p>Una Pistola Pesada ocultable. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Pistola"
+    },
+    "Mark III": {
+      "name": "Mark III",
+      "description": "<p>Una Pistola Pesada ocultable.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Minami 10": {
+      "name": "Minami 10",
+      "description": "<p>Un SMG ocultable. +1 para Atacar.</p>",
+      "dvTable": "VD SMG"
+    },
+    "Mini-Gat": {
+      "name": "Mini-Gat",
+      "description": "<p>Un SMG ocultable. </p>",
+      "dvTable": "VD SMG"
+    },
+    "Mini-Grenade": {
+      "name": "Mini-Granada",
+      "description": "<p>Un lanzador de granadas de alto impacto. Puedes usar una variedad de granadas con esto. </p>",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "P-35": {
+      "name": "P-35",
+      "description": "<p>Una Pistola Muy Pesada. No se puede ocultar.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Rapid Assault": {
+      "name": "Asalto Rápido",
+      "description": "<p>Una escopeta para todos los propósitos. </p>",
+      "dvTable": "VD Escopeta (Perdigones de escopeta)"
+    },
+    "Ronin": {
+      "name": "Ronin",
+      "description": "<p>Un rifle de asalto estándar. </p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "Scorpion": {
+      "name": "Escorpión",
+      "description": "<p>Una Ballesta, recargada como parte de una acción de Ataque.</p>\n<p>+1 para Ataque.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Sherwood": {
+      "name": "Sherwood",
+      "description": "<p>Un arco revitalizado que debe recargarse después de cada ataque. Si tira 1 en ataque (pifia) la cuerda se suelta y requiere una acción para volver a colocarla. </p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "SMG-21": {
+      "name": "SMG-21",
+      "description": "<p>Un SMG pesado. Debido a su tamaño, no puede ser ocultado. </p>",
+      "dvTable": "VD SMG"
+    },
+    "Snipe-Star": {
+      "name": "Francotirador-Estrella",
+      "description": "<p>Un rifle de francotirador de larga distancia. Carga 4 balas en un cargador. Si tira 1 en el ataque (pifia) el rifle se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Rifle de Francotirador"
+    },
+    "Streetmaster": {
+      "name": "Maestro Callejero",
+      "description": "<p>Una Pistola Media ocultable. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Pistola"
+    },
+    "Striker": {
+      "name": "Golpeador",
+      "description": "<p>Una Ballesta, recargada como parte de una acción de Ataque.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Super Chief": {
+      "name": "Super Jefe",
+      "description": "<p>Una Pistola Muy Pesada. No se puede ocultar. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Pistola"
+    },
+    "Tech-Assault III": {
+      "name": "Tech-Asalto III",
+      "description": "<p>Un SMG ocultable. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD SMG"
+    },
+    "Tomcat": {
+      "name": "Tomcat",
+      "description": "<p>Arco revitalizado, recargado como parte de una acción de Ataque.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Type-18": {
+      "name": "Type-18",
+      "description": "<p>Un lanzador de granadas de alto impacto. Puedes usar una variedad de granadas con esto. +1 para Atacar.</p>",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "Type-G": {
+      "name": "Type-G",
+      "description": "<p>Un lanzador de granadas de alto impacto. Puedes usar una variedad de granadas con esto. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "Type-R": {
+      "name": "Type-R",
+      "description": "<p>Saca los cañones grandes. Este lanzador de cohetes causará algún daño. Si tira 1 en el Ataque (pifia) el arma se atasca y requiere una acción para desatascar. </p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "Urban": {
+      "name": "Urbano",
+      "description": "<p>Saca los cañones grandes. Este lanzador de cohetes causará algún daño. </p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "Viper": {
+      "name": "Víbora",
+      "description": "<p>Un SMG pesado. Debido a su tamaño, no puede ser ocultado. +1 para Atacar.</p>",
+      "dvTable": "VD SMG"
+    },
+    "WSSA Sniper System": {
+      "name": "Sistema de Francotirador WSSA",
+      "description": "<p>Un rifle de francotirador de larga distancia. Carga 4 balas en un cargador. +1 al ataque. </p>",
+      "dvTable": "VD Rifle de Francotirador"
+    },
+    "X-9mm": {
+      "name": "X-9mm",
+      "description": "<p>Una Pistola Media ocultable.</p>",
+      "dvTable": "VD Pistola"
+    }
+  }
+}

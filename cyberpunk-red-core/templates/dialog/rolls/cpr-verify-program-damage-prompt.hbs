@@ -1,0 +1,45 @@
+{{cprTrace "START DIALOG ROLLS CPR-VERIFY-PROGRAM-DAMAGE-PROMPT.HBS"}}
+<form class="dialog-sheet">
+  <div class="dialog-header flexcol">
+    <div class="text-normal text-center">
+      {{localize "CPR.rolls.rollingForDamage" rollTitle=rollData.rollTitle}}
+    </div>
+    {{#if rollData.rollCardExtraArgs.program.name }}
+      <div class="text-center">
+        <span class="text-semi">{{localize "CPR.global.programClass.programClass"}}:</span> ({{localize (cprFindConfigValue "programClassList" rollData.rollCardExtraArgs.program.class)}})
+      </div>
+    {{/if}}
+  </div>
+  <hr/>
+  <div class="dialog-grid flexcol">
+    <ol class="dialog-list">
+      {{#if (cprCompare (cprCompare rollData.rollCardExtraArgs.program.class "===" "antiprogramattacker") "&&" (cprCompare rollData.rollCardExtraArgs.program.damage.blackIce "!==" "")) }}
+        <li class="dialog-item flexrow">
+          <div class="dialog-item-name text-nowrap">
+            {{localize "CPR.rolls.selectTarget"}}:
+          </div>
+          <div class="dialog-item-input text-nowrap">
+            <select name="formula">
+              {{#select rollData.formula}}
+              <option value="{{rollData.rollCardExtraArgs.program.damage.standard}}">
+                {{localize "CPR.itemSheet.program.damageTo" programType=(localize "CPR.itemSheet.program.nonBlackIce")}}: ({{rollData.rollCardExtraArgs.program.damage.standard}})
+              </option>
+              <option value="{{rollData.rollCardExtraArgs.program.damage.blackIce}}">
+                {{localize "CPR.itemSheet.program.damageTo" programType=(localize "CPR.global.programClass.blackice")}}: ({{rollData.rollCardExtraArgs.program.damage.blackIce}})
+              </option>
+            {{/select}}
+          </select>
+        </div>
+      </li>
+    {{/if}}
+    {{!-- Additional user inputted modifiers --}}
+    {{> "systems/cyberpunk-red-core/templates/dialog/rolls/cpr-additional-modifiers.hbs" this}}
+    {{!-- All applied modifier list partial --}}
+    {{> "systems/cyberpunk-red-core/templates/dialog/rolls/cpr-all-modifiers.hbs" this}}
+  </ol>
+</div>
+{{!-- Situational modifier list partial --}}
+{{> "systems/cyberpunk-red-core/templates/dialog/rolls/cpr-situational-modifiers.hbs" this}}
+{{> "systems/cyberpunk-red-core/templates/dialog/cpr-dialog-buttons.hbs"}}
+</form>
+{{cprTrace "END CPR-VERIFY-PROGRAM-DAMAGE-PROMPT.HBS"}}
