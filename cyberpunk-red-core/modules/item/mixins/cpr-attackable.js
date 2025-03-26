@@ -198,6 +198,24 @@ const Attackable = function Attackable() {
         cprRoll.addMod(rangedMods);
         break;
       }
+      case CPRRolls.rollTypes.BURST: {
+        cprRoll = new CPRRolls.CPRBurstFireRoll(
+          weaponName,
+          niceStatName,
+          statValue,
+          skillName,
+          skillValue,
+          weaponType
+        );
+        cprRoll.burst = true;
+        if (cprWeaponData.isRanged) {
+          cprRoll.addMod(singleShotMods);
+          cprRoll.addMod(rangedMods);
+        } else {
+          cprRoll.addMod(meleeMods);
+        }
+        break;
+      }
       default:
         cprRoll = new CPRRolls.CPRAttackRoll(
           weaponName,
@@ -279,7 +297,7 @@ const Attackable = function Attackable() {
     const cprWeaponData = this.system;
     const rollName = this.name;
     const { weaponType } = cprWeaponData;
-    const damage = this.getWeaponDamage();
+    const damage = this.getWeaponDamage(type);
 
     const cprRoll = new CPRRolls.CPRDamageRoll(rollName, damage, weaponType);
     if (
@@ -299,6 +317,8 @@ const Attackable = function Attackable() {
       autofireOverride
     );
 
+    cprRoll.burst = false;
+    cprRoll.rollCardExtraArgs.burst = 0;
     switch (type) {
       case CPRRolls.rollTypes.AIMED: {
         cprRoll.isAimed = true;
@@ -308,6 +328,10 @@ const Attackable = function Attackable() {
       case CPRRolls.rollTypes.AUTOFIRE: {
         cprRoll.setAutofire();
         break;
+      }
+      case CPRRolls.rollTypes.BURST: {
+        cprRoll.burst = true;
+        cprRoll.rollCardExtraArgs.burst = 1;
       }
       default:
     }
@@ -345,6 +369,8 @@ const Attackable = function Attackable() {
 
     cprRoll.rollCardExtraArgs.ignoreBelowSP = cprWeaponData.ignoreSP;
 
+
+    cprRoll.rollCardExtraArgs.burstFireAmmoConsumption = cprWeaponData.fireModes.burstFire;
     cprRoll.rollCardExtraArgs.autofireAmmoConsumption = cprWeaponData.fireModes.autofireAmmoConsumption;
 
     // Get all mods for universal damage bonuses from role abilities.
@@ -387,10 +413,14 @@ const Attackable = function Attackable() {
    * Calculates the damage for a weapon. For unarmed or martial arts damage rolls, calculate based on the body stat.
    * For ranged weapons, factor in if the ammo overrides the weapon's base damage.
    *
+   * @param {String} type
    * @returns {String} - Damage formula in the form of `Xd6`.
    */
-  this.getWeaponDamage = function _getWeaponDamage() {
+  this.getWeaponDamage = function _getWeaponDamage(type = "") {
     let { damage } = this.system;
+    if (type == "burst"){
+      damage = this.system.burstFireDamage
+    }
     const { weaponType } = this.system;
     if (
       (weaponType === "unarmed" || weaponType === "martialArts") &&

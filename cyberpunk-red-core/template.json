@@ -238,14 +238,17 @@
         "weaponSkill": "",
         "fireModes": {
           "autoFire": 0,
+          "burstFire": 0,
           "autoFireAmmoConsumption": 10,
           "suppressiveFire": false
         },
         "damage": "1d6",
+        "burstFireDamage": "1d6",
         "rof": 1,
         "dvTable": "",
         "ignoreSP": 0,
         "isRanged": false,
+        "aimCapable": true,
         "unarmedAutomaticCalculation": true,
         "attackmod": 0
       },

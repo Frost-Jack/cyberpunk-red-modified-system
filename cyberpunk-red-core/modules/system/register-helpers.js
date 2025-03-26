@@ -1182,6 +1182,18 @@ export default function registerHandlebarsHelpers() {
     return trueMax;
   });
 
+
+    /**
+   * Returns the burst number for a particular weapon,
+   *
+   * @param {CPRWeapon} weapon - weapon item whose burst we are interested in returning
+
+   */
+  Handlebars.registerHelper("cprGetWeaponBurstFire", (weapon) => {
+    LOGGER.trace("cprGetWeaponBurstFire | handlebarsHelper | Called.");
+    return weapon.system.fireModes.burstFire;
+  });
+
   /**
    * Return true/false depending on whether debugElements setting in the game is enabled
    */

@@ -276,6 +276,7 @@ export default class CPRItem extends Item {
       case CPRRolls.rollTypes.SUPPRESSIVE:
       case CPRRolls.rollTypes.AUTOFIRE:
       case CPRRolls.rollTypes.AIMED:
+      case CPRRolls.rollTypes.BURST:
       case CPRRolls.rollTypes.ATTACK: {
         return this._createAttackRoll(type, actor);
       }

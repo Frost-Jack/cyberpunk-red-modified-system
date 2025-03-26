@@ -112,18 +112,20 @@
   <div class="weapon-mode text-padding-sides-small">
     <ul>
       {{!-- Aimed Shot --}}
-      <li>
-        <span class="text-padding-sides-small">
-          {{localize "CPR.actorSheets.fireModes.aim"}}
-        </span>
-        <a class="fire-checkbox" data-fire-mode="aimed" data-item-id="{{this.id}}">
-          {{#if (cprFireMode actor "aimed" this.id) }}
-            <i class="far fa-circle-dot text-padding-right-smallest"></i>
-          {{else}}
-            <i class="far fa-circle text-padding-right-smallest"></i>
-          {{/if}}
-        </a>
-      </li>
+      {{#if this.system.aimCapable}}
+        <li>
+          <span class="text-padding-sides-small">
+            {{localize "CPR.actorSheets.fireModes.aim"}}
+          </span>
+          <a class="fire-checkbox" data-fire-mode="aimed" data-item-id="{{this.id}}">
+            {{#if (cprFireMode actor "aimed" this.id) }}
+              <i class="far fa-circle-dot text-padding-right-smallest"></i>
+            {{else}}
+              <i class="far fa-circle text-padding-right-smallest"></i>
+            {{/if}}
+          </a>
+        </li>
+      {{/if}}
       {{!-- Autofire --}}
       {{#if (cprCompare this.system.fireModes.autoFire ">" 0)}}
         <li>
@@ -138,6 +140,21 @@
           </span>
           <a class="fire-checkbox" data-fire-mode="autofire" data-item-id="{{this.id}}">
             {{#if (cprFireMode actor "autofire" this.id) }}
+              <i class="far fa-circle-dot text-padding-right-smallest"></i>
+            {{else}}
+              <i class="far fa-circle text-padding-right-smallest"></i>
+            {{/if}}
+          </a>
+        </li>
+      {{/if}}
+      {{#if (cprCompare this.system.fireModes.burstFire ">" 0)}}
+        <li>
+          <span class="text-padding-right-small">
+            {{localize "CPR.actorSheets.fireModes.burstFire"}}
+            ({{cprGetWeaponBurstFire this}})
+          </span>
+          <a class="fire-checkbox" data-fire-mode="burst" data-item-id="{{this.id}}">
+            {{#if (cprFireMode actor "burst" this.id) }}
               <i class="far fa-circle-dot text-padding-right-smallest"></i>
             {{else}}
               <i class="far fa-circle text-padding-right-smallest"></i>

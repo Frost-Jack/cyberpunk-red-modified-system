@@ -557,6 +557,7 @@ export default class CPRActorSheet extends ActorSheet {
 
     if (item !== null) {
       if (item.system.fireModes != null) {
+        cprRoll.rollCardExtraArgs.burstFireAmmoConsumption = item.system.fireModes.burstFire
         cprRoll.rollCardExtraArgs.autoFireAmmoConsumption = item.system.fireModes.autoFireAmmoConsumption
       }
       // Do any actions that need to be done as part of a roll, like ammo decrementing

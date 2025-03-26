@@ -221,6 +221,9 @@ const Loadable = function Loadable() {
     ) {
       bulletCount = cprRoll.rollCardExtraArgs.autoFireAmmoConsumption;
     }
+    if (cprRoll.rollCardExtraArgs.burstFireAmmoConsumption > 0 && cprRoll.burst){
+      return cprRoll.rollCardExtraArgs.burstFireAmmoConsumption;
+    }
     return bulletCount;
   };
 

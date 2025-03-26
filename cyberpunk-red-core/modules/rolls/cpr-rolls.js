@@ -616,6 +616,34 @@ export class CPRSuppressiveFireRoll extends CPRAttackRoll {
 }
 
 /**
+ * See CPRBurstFireRoll, this is the same idea.
+ */
+export class CPRBurstFireRoll extends CPRAttackRoll {
+  /**
+   * @constructor
+   * @param {String} attackName - a name for the attack. Used in the roll card (chat message)
+   * @param {String} statName - name for the stat
+   * @param {Number} statValue - value of said stat
+   * @param {String} skillName - name for the skill to be considered
+   * @param {Number} skillValue - value of said skill
+   * @param {String} weaponType - type of the weapon which is embedded in links to damage rolls in the roll card
+   */
+  constructor(
+    weaponName,
+    statName,
+    statValue,
+    skillName,
+    skillValue,
+    weaponType
+  ) {
+    LOGGER.trace("constructor | CPRSBurstFireRoll | Called.");
+    super(weaponName, statName, statValue, skillName, skillValue, weaponType);
+    this.rollTitle = `${weaponName}`;
+    this.rollCard = `systems/${game.system.id}/templates/chat/cpr-burst-attack-rollcard.hbs`;
+  }
+}
+
+/**
  * RoleRolls are rolls for role abilities. I hope this is easier to say in other languages.
  */
 export class CPRRoleRoll extends CPRRoll {
@@ -919,6 +947,7 @@ export const rollTypes = {
   ATTACK: "attack",
   AIMED: "aimed",
   AUTOFIRE: "autofire",
+  BURST: "burst",
   SUPPRESSIVE: "suppressive",
   DAMAGE: "damage",
   DEATHSAVE: "deathsave",
